@@ -18,7 +18,7 @@ const ActivityArea = () => {
                   <div className='activity-card'>
                     <div className='activity-img'>
                       <img
-                        src='../images/activity/activity-img1.jpg'
+                        src={require('../../assets/imgs/activity/activity-img1.jpg')}
                         alt='Images'
                       />
                     </div>
@@ -49,7 +49,7 @@ const ActivityArea = () => {
                   <div className='activity-card'>
                     <div className='activity-img'>
                       <img
-                        src='../images/activity/activity-img2.jpg'
+                        src={require('../../assets/imgs/activity/activity-img2.jpg')}
                         alt='Images'
                       />
                     </div>
@@ -80,7 +80,7 @@ const ActivityArea = () => {
                   <div className='activity-card'>
                     <div className='activity-img'>
                       <img
-                        src='../images/activity/activity-img3.jpg'
+                        src={require('../../assets/imgs/activity/activity-img3.jpg')}
                         alt='Images'
                       />
                     </div>
@@ -111,7 +111,7 @@ const ActivityArea = () => {
                   <div className='activity-card'>
                     <div className='activity-img'>
                       <img
-                        src='../images/activity/activity-img4.jpg'
+                        src={require('../../assets/imgs/activity/activity-img4.jpg')}
                         alt='Images'
                       />
                     </div>
@@ -142,7 +142,7 @@ const ActivityArea = () => {
                   <div className='activity-card'>
                     <div className='activity-img'>
                       <img
-                        src='../images/activity/activity-img5.jpg'
+                        src={require('../../assets/imgs/activity/activity-img5.jpg')}
                         alt='Images'
                       />
                     </div>

@@ -104,7 +104,7 @@ const AuctionArea = () => {
                     <Link to='/auction'>
                       <a>
                         <img
-                          src='../images/auctions/auctions-img5.jpg'
+                          src={require('../../assets/imgs/auctions/auctions-img5.jpg')}
                           alt='Images'
                         />
                       </a>
@@ -113,7 +113,7 @@ const AuctionArea = () => {
                       <Link to='/author-profile'>
                         <a className='auction-card-user-option'>
                           <img
-                            src='../images/auctions/auctions-user1.jpg'
+                            src={require('../../assets/imgs/auctions/auctions-user1.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -163,7 +163,7 @@ const AuctionArea = () => {
                     <Link to='/auction'>
                       <a>
                         <img
-                          src='../images/auctions/auctions-img6.jpg'
+                          src={require('../../assets/imgs/auctions/auctions-img6.jpg')}
                           alt='Images'
                         />
                       </a>
@@ -172,7 +172,7 @@ const AuctionArea = () => {
                       <Link to='/auction'>
                         <a className='auction-card-user-option'>
                           <img
-                            src='../images/auctions/auctions-user2.jpg'
+                            src={require('../../assets/imgs/auctions/auctions-user2.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Emilia</span>
@@ -222,7 +222,7 @@ const AuctionArea = () => {
                     <Link to='/auction'>
                       <a>
                         <img
-                          src='../images/auctions/auctions-img7.jpg'
+                          src={require('../../assets/imgs/auctions/auctions-img7.jpg')}
                           alt='Images'
                         />
                       </a>
@@ -231,7 +231,7 @@ const AuctionArea = () => {
                       <Link to='/author-profile'>
                         <a className='auction-card-user-option'>
                           <img
-                            src='../images/auctions/auctions-user3.jpg'
+                            src={require('../../assets/imgs/auctions/auctions-user3.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Daniel</span>
@@ -281,7 +281,7 @@ const AuctionArea = () => {
                     <Link to='/auction'>
                       <a>
                         <img
-                          src='../images/auctions/auctions-img8.jpg'
+                          src={require('../../assets/imgs/auctions/auctions-img8.jpg')}
                           alt='Images'
                         />
                       </a>
@@ -290,7 +290,7 @@ const AuctionArea = () => {
                       <Link to='/author-profile'>
                         <a className='auction-card-user-option'>
                           <img
-                            src='../images/auctions/auctions-user4.jpg'
+                            src={require('../../assets/imgs/auctions/auctions-user4.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Jekob</span>

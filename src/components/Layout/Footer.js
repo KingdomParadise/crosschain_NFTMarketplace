@@ -12,7 +12,7 @@ const Footer = () => {
 									<Link to="/">
 										<a>
 											<img
-												src="../images/footer-logo.png"
+												src={require('../../assets/imgs/footer-logo.jpg')}
 												alt="Footer Logo"
 											/>
 										</a>
@@ -167,15 +167,15 @@ const Footer = () => {
 
 				<div className="footer-shape">
 					<div className="footer-shape1">
-						<img src="../images/shape/shape-bg.png" alt="Images" />
+						<img src={require('../../assets/imgs/shape/shape-bg.jpg')} alt="Images" />
 					</div>
 
 					<div className="footer-shape2">
-						<img src="../images/shape/shape1.png" alt="Images" />
+						<img src={require('../../assets/imgs/shape/shape1.jpg')} alt="Images" />
 					</div>
 
 					<div className="footer-shape3">
-						<img src="../images/shape/shape2.png" alt="Images" />
+						<img src={require('../../assets/imgs/shape/shape2.jpg')} alt="Images" />
 					</div>
 				</div>
 			</footer>

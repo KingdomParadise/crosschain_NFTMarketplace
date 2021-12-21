@@ -26,7 +26,7 @@ const AuthorArea = () => {
               <div className='author-card'>
                 <Link to='/authors'>
                   <a>
-                    <img src='../images/author/author-img1.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img1.jpg' alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
@@ -51,7 +51,7 @@ const AuthorArea = () => {
                     </ul>
                   </div>
                   <div className='author-user'>
-                    <img src='../images/author/author-user1.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-user1.jpg' alt='Images' />
                     <i className='ri-check-line'></i>
                   </div>
 
@@ -70,7 +70,7 @@ const AuthorArea = () => {
               <div className='author-card'>
                 <Link to='/authors'>
                   <a>
-                    <img src='../images/author/author-img2.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img2.jpg' alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
@@ -95,7 +95,7 @@ const AuthorArea = () => {
                     </ul>
                   </div>
                   <div className='author-user'>
-                    <img src='../images/author/author-user2.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-user2.jpg' alt='Images' />
                     <i className='ri-check-line'></i>
                   </div>
 
@@ -115,7 +115,7 @@ const AuthorArea = () => {
               <div className='author-card'>
                 <Link to='/authors'>
                   <a>
-                    <img src='../images/author/author-img3.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img3.jpg' alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
@@ -141,7 +141,7 @@ const AuthorArea = () => {
                   </div>
 
                   <div className='author-user'>
-                    <img src='../images/author/author-user3.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-user3.jpg' alt='Images' />
                     <i className='ri-check-line'></i>
                   </div>
 
@@ -160,7 +160,7 @@ const AuthorArea = () => {
               <div className='author-card'>
                 <Link to='/authors'>
                   <a>
-                    <img src='../images/author/author-img4.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img4.jpg' alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
@@ -185,7 +185,7 @@ const AuthorArea = () => {
                     </ul>
                   </div>
                   <div className='author-user'>
-                    <img src='../images/author/author-user4.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-user4.jpg' alt='Images' />
                     <i className='ri-check-line'></i>
                   </div>
 
@@ -203,7 +203,7 @@ const AuthorArea = () => {
         </div>
 
         <div className='author-area-shape-two'>
-          <img src='../images/author/author-shape2.png' alt='Images' />
+          <img src={require('../../assets/imgs/author/author-shape2.png')} alt='Images' />
         </div>
       </div>
     </>

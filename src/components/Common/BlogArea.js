@@ -27,14 +27,14 @@ const BlogArea = () => {
                 <div className='blog-img'>
                   <Link to='/blog-details'>
                     <a>
-                      <img src='../images/blog/blog-img1.jpg' alt='Images' />
+                      <img src={require('../../assets/imgs/blog/blog-img1.jpg')} alt='Images' />
                     </a>
                   </Link>
                   <div className='blog-user'>
                     <Link to='/author-profile'>
                       <a className='blog-user-option'>
                         <img
-                          src='../images/featured/featured-user2.jpg'
+                          src={require('../../assets/imgs/featured/featured-user2.jpg')}
                           alt='Images'
                         />
                         <span>Created by @Adison</span>
@@ -65,14 +65,14 @@ const BlogArea = () => {
                 <div className='blog-img'>
                   <Link to='/item-details'>
                     <a>
-                      <img src='../images/blog/blog-img2.jpg' alt='Images' />
+                      <img src={require('../../assets/imgs/blog/blog-img2.jpg')} alt='Images' />
                     </a>
                   </Link>
                   <div className='blog-user'>
                     <Link to='/author-profile'>
                       <a className='blog-user-option'>
                         <img
-                          src='../images/featured/featured-user2.jpg'
+                          src={require('../../assets/imgs/featured/featured-user2.jpg')}
                           alt='Images'
                         />
                         <span>Created by @Evelyn</span>
@@ -106,14 +106,14 @@ const BlogArea = () => {
                 <div className='blog-img'>
                   <Link to='/blog-details'>
                     <a>
-                      <img src='../images/blog/blog-img3.jpg' alt='Images' />
+                      <img src={require('../../assets/imgs/blog/blog-img3.jpg')} alt='Images' />
                     </a>
                   </Link>
                   <div className='blog-user'>
                     <Link to='/author-profile'>
                       <a className='blog-user-option'>
                         <img
-                          src='../images/featured/featured-user3.jpg'
+                          src={require('../../assets/imgs/featured/featured-user3.jpg')}
                           alt='Images'
                         />
                         <span>Created by @Julian</span>

@@ -42,7 +42,7 @@ const Testimonial = () => {
                     <div className='col-lg-9'>
                       <div className='testimonial-slider-content'>
                         <img
-                          src='../images/testimonial/testimonial-line.png'
+                          src={require('../../assets/imgs/testimonial/testimonial-line.png')}
                           alt='image'
                         />
                         <p>
@@ -62,7 +62,7 @@ const Testimonial = () => {
                     <div className='col-lg-3'>
                       <div className='testimonial-slider-img'>
                         <img
-                          src='../images/testimonial/testimonial-img2.png'
+                          src={require('../../assets/imgs/testimonial/testimonial-img2.png')}
                           alt='Images'
                         />
                       </div>
@@ -75,7 +75,7 @@ const Testimonial = () => {
                     <div className='col-lg-9'>
                       <div className='testimonial-slider-content'>
                         <img
-                          src='../images/testimonial/testimonial-line.png'
+                          src={require('../../assets/imgs/testimonial/testimonial-line.png')}
                           alt='image'
                         />
                         <p>
@@ -95,7 +95,7 @@ const Testimonial = () => {
                     <div className='col-lg-3'>
                       <div className='testimonial-slider-img'>
                         <img
-                          src='../images/testimonial/testimonial-img3.png'
+                          src={require('../../assets/imgs/testimonial/testimonial-img3.png')}
                           alt='Images'
                         />
                       </div>
@@ -108,7 +108,7 @@ const Testimonial = () => {
                     <div className='col-lg-9'>
                       <div className='testimonial-slider-content'>
                         <img
-                          src='../images/testimonial/testimonial-line.png'
+                          src={require('../../assets/imgs/testimonial/testimonial-line.png')}
                           alt='image'
                         />
                         <p>
@@ -128,7 +128,7 @@ const Testimonial = () => {
                     <div className='col-lg-3'>
                       <div className='testimonial-slider-img'>
                         <img
-                          src='../images/testimonial/testimonial-img.png'
+                          src={require('../../assets/imgs/testimonial/testimonial-img.png')}
                           alt='Images'
                         />
                       </div>

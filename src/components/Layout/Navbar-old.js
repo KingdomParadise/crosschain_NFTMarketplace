@@ -51,7 +51,7 @@ const Navbar = () => {
               <div className='logo'>
                 <Link to='/'>
                   <a>
-                    <img src='../images/logo-2.png' alt='logo' />
+                    <img src={require('../../assets/imgs/logo-2.png')} alt='logo' />
                   </a>
                 </Link>
               </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <nav className='navbar navbar-expand-md navbar-light '>
               <Link to='/'>
                 <a className='navbar-brand'>
-                  <img src='../images/logo.png' alt='Logo' />
+                  <img src={require('../../assets/imgs/logo.png')} alt='Logo' />
                 </a>
               </Link>
 

@@ -26,14 +26,14 @@ const AuthorArea = () => {
               <div className='author-item'>
                 <Link to='/author-profile'>
                   <a>
-                    <img src='../images/author/author-img5.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img5.jpg')} alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
                   <div className='author-user-list'>
                     <div className='author-user-img'>
                       <img
-                        src='../images/author/author-user1.jpg'
+                        src={require('../../assets/imgs/author/author-user1.jpg')}
                         alt='Images'
                       />
                       <i className='ri-check-line'></i>
@@ -83,14 +83,14 @@ const AuthorArea = () => {
               <div className='author-item'>
                 <Link to='/author-profile'>
                   <a>
-                    <img src='../images/author/author-img2.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img2.jpg')} alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
                   <div className='author-user-list'>
                     <div className='author-user-img'>
                       <img
-                        src='../images/author/author-user2.jpg'
+                        src={require('../../assets/imgs/author/author-user2.jpg')}
                         alt='Images'
                       />
                       <i className='ri-check-line'></i>
@@ -140,14 +140,14 @@ const AuthorArea = () => {
               <div className='author-item'>
                 <Link to='/author-profile'>
                   <a>
-                    <img src='../images/author/author-img3.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img3.jpg')} alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
                   <div className='author-user-list'>
                     <div className='author-user-img'>
                       <img
-                        src='../images/author/author-user3.jpg'
+                        src={require('../../assets/imgs/author/author-user3.jpg')}
                         alt='Images'
                       />
                       <i className='ri-check-line'></i>
@@ -197,14 +197,14 @@ const AuthorArea = () => {
               <div className='author-item'>
                 <Link to='/author-profile'>
                   <a>
-                    <img src='../images/author/author-img1.jpg' alt='Images' />
+                    <img src={require('../../assets/imgs/author/author-img1.jpg')} alt='Images' />
                   </a>
                 </Link>
                 <div className='content'>
                   <div className='author-user-list'>
                     <div className='author-user-img'>
                       <img
-                        src='../images/author/author-user4.jpg'
+                        src={require('../../assets/imgs/author/author-user4.jpg')}
                         alt='Images'
                       />
                       <i className='ri-check-line'></i>

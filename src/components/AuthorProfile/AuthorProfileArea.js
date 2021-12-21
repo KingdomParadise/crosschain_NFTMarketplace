@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Tabs from "react-tabs";
+import { Tabs } from "react-tabs";
 import { resetIdCounter, Tab, TabList, TabPanel } from "react-tabs";
 resetIdCounter();
 
@@ -55,7 +55,7 @@ const AuthorProfileArea = () => {
             <div className="col-lg-3">
               <div className="author-profile-sidebar  mr-20">
                 <div className="author-user">
-                  <img src="../images/author/author-profile.jpg" alt="Images" />
+                  <img src={require("../../assets/imgs/author/author-profile.jpg")} alt="Images" />
                   <i className="ri-check-line"></i>
                 </div>
 
@@ -150,7 +150,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img1.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -186,7 +186,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Adison</span>
@@ -202,7 +202,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img2.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -244,7 +244,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user2.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Maicel</span>
@@ -260,7 +260,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img3.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img3.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -302,7 +302,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user3.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jekob</span>
@@ -318,7 +318,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img4.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img4.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -354,7 +354,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user4.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>
@@ -370,7 +370,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -406,7 +406,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Daniel</span>
@@ -422,7 +422,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -458,7 +458,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Samuel</span>
@@ -474,7 +474,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -510,7 +510,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Martina</span>
@@ -526,7 +526,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -562,7 +562,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Henry</span>
@@ -578,7 +578,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img9.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -614,7 +614,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>
@@ -636,7 +636,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -672,7 +672,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Adison</span>
@@ -688,7 +688,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -730,7 +730,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user2.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Maicel</span>
@@ -746,7 +746,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img4.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img4.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -789,7 +789,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user3.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jekob</span>
@@ -805,7 +805,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -842,7 +842,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user4.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>
@@ -858,509 +858,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img7.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 142
-                                </p>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Walking On Air</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>130 ETH 12/14</span>
-                                    <h4>Bid 80 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user5.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Daniel</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img9.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 172
-                                </p>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Supper Nuemorphism</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>140 ETH 12/14</span>
-                                    <h4>Bid 90 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user6.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Samuel</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img6.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 182
-                                </p>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Dark-light Angel</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>160 ETH 12/14</span>
-                                    <h4>Bid 100 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user7.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Martina</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img9.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 142
-                                </p>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Exe Dream Hight</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>170 ETH 12/14</span>
-                                    <h4>Bid 90 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user8.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Henry</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img2.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 132
-                                </p>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Art Of The Infinity</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>170 ETH 12/14</span>
-                                    <h4>Bid 90 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user1.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Jack</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </TabPanel>
-
-                    <TabPanel>
-                      <div className="tabs_item">
-                        <div className="row justify-content-center">
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img1.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 122
-                                </p>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Industrial Revolution</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>100 ETH 12/14</span>
-                                    <h4>Bid 80 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user1.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Adison</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img2.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 142
-                                </p>
-                                <div
-                                  className="featured-card-clock"
-                                  data-countdown="2021/10/10"
-                                >
-                                  {days}:{hours}:{minutes}:{seconds}
-                                </div>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>I Love In The Air</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>110 ETH 12/14</span>
-                                    <h4>Bid 70 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user2.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Maicel</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img3.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 162
-                                </p>
-                                <div
-                                  className="featured-card-clock"
-                                  data-countdown="2021/09/09"
-                                >
-                                  {days}:{hours}:{minutes}:{seconds}
-                                </div>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Become One With Nature</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>120 ETH 12/14</span>
-                                    <h4>Bid 80 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-
-                                <Link to="/item-details">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user3.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Jekob</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img4.jpg"
-                                      alt="Images"
-                                    />
-                                  </a>
-                                </Link>
-                                <p>
-                                  <i className="ri-heart-line"></i> 192
-                                </p>
-                                <button
-                                  type="button"
-                                  className="default-btn border-radius-5"
-                                >
-                                  Place Bid
-                                </button>
-                              </div>
-
-                              <div className="content">
-                                <h3>
-                                  <Link to="/item-details">
-                                    <a>Twilight Fracture City</a>
-                                  </Link>
-                                </h3>
-                                <div className="content-in">
-                                  <div className="featured-card-left">
-                                    <span>110 ETH 12/14</span>
-                                    <h4>Bid 90 ETH </h4>
-                                  </div>
-
-                                  <Link to="/item-details">
-                                    <a className="featured-content-btn">
-                                      <i className="ri-arrow-right-line"></i>
-                                    </a>
-                                  </Link>
-                                </div>
-
-                                <Link to="/author-profile">
-                                  <a className="featured-user-option">
-                                    <img
-                                      src="../images/featured/featured-user4.jpg"
-                                      alt="Images"
-                                    />
-                                    <span>Created by @Jack</span>
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="col-lg-4 col-md-6">
-                            <div className="featured-card box-shadow">
-                              <div className="featured-card-img">
-                                <Link to="/item-details">
-                                  <a>
-                                    <img
-                                      src="../images/featured/featured-img5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1398,7 +896,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Daniel</span>
@@ -1414,7 +912,509 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img9.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 172
+                                </p>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Supper Nuemorphism</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>140 ETH 12/14</span>
+                                    <h4>Bid 90 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user6.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Samuel</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img6.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 182
+                                </p>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Dark-light Angel</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>160 ETH 12/14</span>
+                                    <h4>Bid 100 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user7.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Martina</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img9.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 142
+                                </p>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Exe Dream Hight</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>170 ETH 12/14</span>
+                                    <h4>Bid 90 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user8.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Henry</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img2.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 132
+                                </p>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Art Of The Infinity</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>170 ETH 12/14</span>
+                                    <h4>Bid 90 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Jack</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </TabPanel>
+
+                    <TabPanel>
+                      <div className="tabs_item">
+                        <div className="row justify-content-center">
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img1.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 122
+                                </p>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Industrial Revolution</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>100 ETH 12/14</span>
+                                    <h4>Bid 80 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Adison</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img2.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 142
+                                </p>
+                                <div
+                                  className="featured-card-clock"
+                                  data-countdown="2021/10/10"
+                                >
+                                  {days}:{hours}:{minutes}:{seconds}
+                                </div>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>I Love In The Air</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>110 ETH 12/14</span>
+                                    <h4>Bid 70 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user2.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Maicel</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img3.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 162
+                                </p>
+                                <div
+                                  className="featured-card-clock"
+                                  data-countdown="2021/09/09"
+                                >
+                                  {days}:{hours}:{minutes}:{seconds}
+                                </div>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Become One With Nature</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>120 ETH 12/14</span>
+                                    <h4>Bid 80 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user3.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Jekob</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img4.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 192
+                                </p>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Twilight Fracture City</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>110 ETH 12/14</span>
+                                    <h4>Bid 90 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+
+                                <Link to="/author-profile">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user4.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Jack</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img5.jpg")}
+                                      alt="Images"
+                                    />
+                                  </a>
+                                </Link>
+                                <p>
+                                  <i className="ri-heart-line"></i> 142
+                                </p>
+                                <button
+                                  type="button"
+                                  className="default-btn border-radius-5"
+                                >
+                                  Place Bid
+                                </button>
+                              </div>
+
+                              <div className="content">
+                                <h3>
+                                  <Link to="/item-details">
+                                    <a>Walking On Air</a>
+                                  </Link>
+                                </h3>
+                                <div className="content-in">
+                                  <div className="featured-card-left">
+                                    <span>130 ETH 12/14</span>
+                                    <h4>Bid 80 ETH </h4>
+                                  </div>
+
+                                  <Link to="/item-details">
+                                    <a className="featured-content-btn">
+                                      <i className="ri-arrow-right-line"></i>
+                                    </a>
+                                  </Link>
+                                </div>
+
+                                <Link to="/item-details">
+                                  <a className="featured-user-option">
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-user5.jpg")}
+                                      alt="Images"
+                                    />
+                                    <span>Created by @Daniel</span>
+                                  </a>
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="col-lg-4 col-md-6">
+                            <div className="featured-card box-shadow">
+                              <div className="featured-card-img">
+                                <Link to="/item-details">
+                                  <a>
+                                    <img
+                                      src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1451,7 +1451,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Samuel</span>
@@ -1467,7 +1467,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1505,7 +1505,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Martina</span>
@@ -1521,7 +1521,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1559,7 +1559,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Henry</span>
@@ -1575,7 +1575,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img9.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1613,7 +1613,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>
@@ -1635,7 +1635,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img2.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1672,7 +1672,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Adison</span>
@@ -1688,7 +1688,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img3.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img3.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1732,7 +1732,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user2.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Maicel</span>
@@ -1748,7 +1748,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1791,7 +1791,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user3.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jekob</span>
@@ -1807,7 +1807,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1845,7 +1845,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user4.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>
@@ -1861,7 +1861,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img9.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1898,7 +1898,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Daniel</span>
@@ -1914,7 +1914,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -1951,7 +1951,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Samuel</span>
@@ -1967,7 +1967,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2004,7 +2004,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Martina</span>
@@ -2020,7 +2020,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2057,7 +2057,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Henry</span>
@@ -2073,7 +2073,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img9.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2110,7 +2110,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>
@@ -2132,7 +2132,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img1.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2169,7 +2169,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Adison</span>
@@ -2185,7 +2185,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img2.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2228,7 +2228,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user2.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Maicel</span>
@@ -2244,7 +2244,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img3.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img3.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2287,7 +2287,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user3.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jekob</span>
@@ -2303,7 +2303,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img4.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img4.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2340,7 +2340,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user4.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>
@@ -2356,7 +2356,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2393,7 +2393,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user5.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Daniel</span>
@@ -2409,7 +2409,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2446,7 +2446,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user6.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Samuel</span>
@@ -2462,7 +2462,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2499,7 +2499,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user7.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Martina</span>
@@ -2515,7 +2515,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2552,7 +2552,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user8.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Henry</span>
@@ -2568,7 +2568,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/item-details">
                                   <a>
                                     <img
-                                      src="../images/featured/featured-img9.jpg"
+                                      src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
                                     />
                                   </a>
@@ -2605,7 +2605,7 @@ const AuthorProfileArea = () => {
                                 <Link to="/author-profile">
                                   <a className="featured-user-option">
                                     <img
-                                      src="../images/featured/featured-user1.jpg"
+                                      src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
                                     />
                                     <span>Created by @Jack</span>

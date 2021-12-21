@@ -10,7 +10,7 @@ const BlogDetailsArea = () => {
             <div className='col-lg-4'>
               <div className='side-bar-area pr-20'>
                 <div className='side-bar-profile'>
-                  <img src='../images/blog/blog-profile.jpg' alt='Images' />
+                  <img src={require('../../assets/imgs/blog/blog-profile.jpg' alt='Images' />
                   <h3>Olivia Jenar</h3>
                   <p>
                     All the Lorem Ipsum generators on the Internet tend to
@@ -247,7 +247,7 @@ const BlogDetailsArea = () => {
 
                 <div className='blog-preview-img'>
                   <img
-                    src='../images/blog/blog-details-img1.jpg'
+                    src={require('../../assets/imgs/blog/blog-details-img1.jpg'
                     alt='Blog Images'
                   />
 
@@ -292,7 +292,7 @@ const BlogDetailsArea = () => {
                     enim. Nisi enim lorem hepotis ipsum tincidunt nam
                     adipiscing. Volutpat lacus, est hendrerit elit sed interdum.
                   </p>
-                  <img src='../images/blog/blog-line.png' alt='Images' />
+                  <img src={require('../../assets/imgs/blog/blog-line.png')} alt='Images' />
                 </blockquote>
 
                 <div className='blog-portfolio'>
@@ -300,7 +300,7 @@ const BlogDetailsArea = () => {
                     <div className='col-lg-8 col-sm-8'>
                       <div className='blog-portfolio-img'>
                         <img
-                          src='../images/blog/blog-details-img2.jpg'
+                          src={require('../../assets/imgs/blog/blog-details-img2.jpg'
                           alt='Images'
                         />
                       </div>
@@ -309,7 +309,7 @@ const BlogDetailsArea = () => {
                     <div className='col-lg-4 col-sm-4'>
                       <div className='blog-portfolio-img'>
                         <img
-                          src='../images/blog/blog-details-img3.jpg'
+                          src={require('../../assets/imgs/blog/blog-details-img3.jpg'
                           alt='Images'
                         />
                       </div>

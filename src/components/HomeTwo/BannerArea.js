@@ -108,14 +108,14 @@ const BannerArea = () => {
                     <div className='banner-item'>
                       <div className='banner-item-img'>
                         <img
-                          src='../images/home-two/home-two-img1.jpg'
+                          src={require('../../assets/imgs/home-two/home-two-img1.jpg'
                           alt='Images'
                         />
                         <div className='banner-item-user'>
                           <Link to='/author-profile'>
                             <a className='banner-item-user-option'>
                               <img
-                                src='../images/home-two/home-two-user1.jpg'
+                                src={require('../../assets/imgs/home-two/home-two-user1.jpg'
                                 alt='Images'
                               />
                               <span>Created by @Farnil</span>
@@ -153,14 +153,14 @@ const BannerArea = () => {
                     <div className='banner-item'>
                       <div className='banner-item-img'>
                         <img
-                          src='../images/home-two/home-two-img2.jpg'
+                          src={require('../../assets/imgs/home-two/home-two-img2.jpg'
                           alt='Images'
                         />
                         <div className='banner-item-user'>
                           <Link to='/author-profile'>
                             <a className='banner-item-user-option'>
                               <img
-                                src='../images/home-two/home-two-user2.jpg'
+                                src={require('../../assets/imgs/home-two/home-two-user2.jpg'
                                 alt='Images'
                               />
                               <span>Created by @Adison</span>
@@ -198,7 +198,7 @@ const BannerArea = () => {
                     <div className='banner-item'>
                       <div className='banner-item-img'>
                         <img
-                          src='../images/home-two/home-two-img3.jpg'
+                          src={require('../../assets/imgs/home-two/home-two-img3.jpg'
                           alt='Images'
                         />
                         <div className='banner-item-user'>
@@ -207,7 +207,7 @@ const BannerArea = () => {
                               className='banner-item-user-option'
                             >
                               <img
-                                src='../images/home-two/home-two-user3.jpg'
+                                src={require('../../assets/imgs/home-two/home-two-user3.jpg'
                                 alt='Images'
                               />
                               <span>Created by @Samuel</span>
@@ -252,10 +252,10 @@ const BannerArea = () => {
 
         <div className='banner-shape'>
           <div className='shape-in1'>
-            <img src='../images/home-two/home-two-shape1.png' alt='Item' />
+            <img src={require('../../assets/imgs/home-two/home-two-shape1.png')} alt='Item' />
           </div>
           <div className='shape-in2'>
-            <img src='../images/home-two/home-two-shape2.png' alt='Item' />
+            <img src={require('../../assets/imgs/home-two/home-two-shape2.png')} alt='Item' />
           </div>
         </div>
       </div>

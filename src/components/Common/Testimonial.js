@@ -41,14 +41,14 @@ const Testimonial = () => {
                 <div className='testimonial-item'>
                   <div className='testimonial-img'>
                     <img
-                      src='../images/testimonial/testimonial-img.png'
+                      src={require('../../assets/imgs/testimonial/testimonial-img.png')}
                       alt='Images'
                     />
                   </div>
 
                   <div className='testimonial-content'>
                     <img
-                      src='../images/testimonial/testimonial-line.png'
+                      src={require('../../assets/imgs/testimonial/testimonial-line.png')}
                       alt='image'
                     />
                     <p>
@@ -68,14 +68,14 @@ const Testimonial = () => {
                 <div className='testimonial-item'>
                   <div className='testimonial-img'>
                     <img
-                      src='../images/testimonial/testimonial-img2.png'
+                      src={require('../../assets/imgs/testimonial/testimonial-img2.png')}
                       alt='Images'
                     />
                   </div>
 
                   <div className='testimonial-content'>
                     <img
-                      src='../images/testimonial/testimonial-line.png'
+                      src={require('../../assets/imgs/testimonial/testimonial-line.png')}
                       alt='image'
                     />
                     <p>
@@ -95,14 +95,14 @@ const Testimonial = () => {
                 <div className='testimonial-item'>
                   <div className='testimonial-img'>
                     <img
-                      src='../images/testimonial/testimonial-img3.png'
+                      src={require('../../assets/imgs/testimonial/testimonial-img3.png')}
                       alt='Images'
                     />
                   </div>
 
                   <div className='testimonial-content'>
                     <img
-                      src='../images/testimonial/testimonial-line.png'
+                      src={require('../../assets/imgs/testimonial/testimonial-line.png')}
                       alt='image'
                     />
                     <p>

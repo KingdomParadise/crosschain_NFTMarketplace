@@ -64,7 +64,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img1.jpg'
+                            src={require('../../assets/imgs/featured/featured-img1.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -103,7 +103,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user1.jpg'
+                            src={require('../../assets/imgs/featured/featured-user1.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -119,7 +119,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img2.jpg'
+                            src={require('../../assets/imgs/featured/featured-img2.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -161,7 +161,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user2.jpg'
+                            src={require('../../assets/imgs/featured/featured-user2.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -177,7 +177,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img3.jpg'
+                            src={require('../../assets/imgs/featured/featured-img3.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -219,7 +219,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user3.jpg'
+                            src={require('../../assets/imgs/featured/featured-user3.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -235,7 +235,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img3.jpg'
+                            src={require('../../assets/imgs/featured/featured-img3.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -273,7 +273,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user4.jpg'
+                            src={require('../../assets/imgs/featured/featured-user4.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -289,7 +289,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img4.jpg'
+                            src={require('../../assets/imgs/featured/featured-img4.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -327,7 +327,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user5.jpg'
+                            src={require('../../assets/imgs/featured/featured-user5.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -343,7 +343,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img6.jpg'
+                            src={require('../../assets/imgs/featured/featured-img6.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -381,7 +381,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user6.jpg'
+                            src={require('../../assets/imgs/featured/featured-user6.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -397,7 +397,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img7.jpg'
+                            src={require('../../assets/imgs/featured/featured-img7.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -435,7 +435,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user7.jpg'
+                            src={require('../../assets/imgs/featured/featured-user7.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -451,7 +451,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img8.jpg'
+                            src={require('../../assets/imgs/featured/featured-img8.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -489,7 +489,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user8.jpg'
+                            src={require('../../assets/imgs/featured/featured-user8.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>
@@ -505,7 +505,7 @@ const DiscoverArea = () => {
                       <Link to='item-details'>
                         <a>
                           <img
-                            src='../images/featured/featured-img9.jpg'
+                            src={require('../../assets/imgs/featured/featured-img9.jpg')}
                             alt='Images'
                           />
                         </a>
@@ -543,7 +543,7 @@ const DiscoverArea = () => {
                           className='featured-user-option'
                         >
                           <img
-                            src='../images/featured/featured-user1.jpg'
+                            src={require('../../assets/imgs/featured/featured-user1.jpg')}
                             alt='Images'
                           />
                           <span>Created by @Adison</span>

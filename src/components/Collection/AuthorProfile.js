@@ -7,7 +7,7 @@ const AuthorProfile = () => {
       <div className='author-profile-sidebar  mr-20'>
         <div className='author-user'>
           <img
-            src='../images/collections/collection-profile.jpg'
+            src={require('../../assets/imgs/collections/collection-profile.jpg')}
             alt='Images'
           />
           <i className='ri-check-line'></i>

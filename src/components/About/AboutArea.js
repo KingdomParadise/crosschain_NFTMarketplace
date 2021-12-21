@@ -28,13 +28,13 @@ const AboutArea = () => {
           <div className='row'>
             <div className='col-lg-6 col-sm-6'>
               <div className='about-img'>
-                <img src='../images/about/about-img1.jpg' alt='Images' />
+                <img src={require('../../assets/imgs/about/about-img1.jpg')} alt='Images' />
               </div>
             </div>
 
             <div className='col-lg-6 col-sm-6'>
               <div className='about-img'>
-                <img src='../images/about/about-img2.jpg' alt='Images' />
+                <img src={require('../../assets/imgs/about/about-img2.jpg')} alt='Images' />
               </div>
             </div>
           </div>

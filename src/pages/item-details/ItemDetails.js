@@ -1,4 +1,3 @@
-import NavbarTwo from '../../components/Layout/NavbarTwo';
 import PageBanner from '../../components/Common/PageBanner';
 import ItemDetailsArea from '../../components/ItemDetails/ItemDetailsArea';
 import TrendingArea from '../../components/Common/TrendingArea';
