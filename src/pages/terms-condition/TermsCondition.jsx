@@ -19,7 +19,7 @@ const ItemDetails = () => {
                 <div className='row pt-45'>
                     <div className='col-lg-12'>
                     <div className='terms-conditions-img'>
-                        <img src='../images/terms-condition-img.jpg' alt='Images' />
+                        <img src={require('../../assets/imgs/terms-condition-img.jpg')} alt='Images' />
                     </div>
 
                     <div className='single-content'>
