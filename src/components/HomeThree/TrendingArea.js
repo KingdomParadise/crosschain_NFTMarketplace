@@ -69,7 +69,7 @@ const TrendingArea = () => {
                 <div className='trending-card'>
                   <div className='trending-card-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-style1.jpg')}
                           alt='Images'
@@ -90,7 +90,7 @@ const TrendingArea = () => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Les Immortal's</a>
+                        <a href={() => false}>Les Immortal's</a>
                       </Link>
                     </h3>
                     <Link to='/author-profile'>
@@ -113,7 +113,7 @@ const TrendingArea = () => {
                 <div className='trending-card'>
                   <div className='trending-card-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-style2.jpg')}
                           alt='Images'
@@ -134,7 +134,7 @@ const TrendingArea = () => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Industrial Revolution</a>
+                        <a href={() => false}>Industrial Revolution</a>
                       </Link>
                     </h3>
                     <Link to='/author-profile'>
@@ -158,7 +158,7 @@ const TrendingArea = () => {
                 <div className='trending-card'>
                   <div className='trending-card-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-style3.jpg')}
                           alt='Images'
@@ -179,7 +179,7 @@ const TrendingArea = () => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Tranquility (Modal)</a>
+                        <a href={() => false}>Tranquility (Modal)</a>
                       </Link>
                     </h3>
                     <Link to='/item-details'>
@@ -202,7 +202,7 @@ const TrendingArea = () => {
                 <div className='trending-card'>
                   <div className='trending-card-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-style4.jpg')}
                           alt='Images'
@@ -223,7 +223,7 @@ const TrendingArea = () => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Walking On Air</a>
+                        <a href={() => false}>Walking On Air</a>
                       </Link>
                     </h3>
                     <Link to='/author-profile'>
@@ -246,7 +246,7 @@ const TrendingArea = () => {
                 <div className='trending-card'>
                   <div className='trending-card-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-style5.jpg')}
                           alt='Images'
@@ -267,7 +267,7 @@ const TrendingArea = () => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>To Infinity</a>
+                        <a href={() => false}>To Infinity</a>
                       </Link>
                     </h3>
                     <Link to='/author-profile'>

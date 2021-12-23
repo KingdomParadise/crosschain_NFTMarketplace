@@ -7,7 +7,7 @@ const DiscoverSidebar = () => {
       <div className='side-bar-area pl-20'>
         <div className='side-bar-widget'>
           <h3 className='title'>
-            Filter <Link to='/discover-2'><a>Clear All</a></Link>
+            Filter <Link to='/discover-2'><a href={() => false}>Clear All</a></Link>
           </h3>
           <form className='search-form'>
             <input
@@ -40,49 +40,49 @@ const DiscoverSidebar = () => {
           <ul>
             <li>
               <Link to='/categories'>
-                <a target='_blank'>
+                <a target='_blank' rel="noreferrer">
                   Art
                 </a>
               </Link>
             </li>
             <li>
               <Link to='/categories'>
-                <a target='_blank'>
+                <a target='_blank' rel="noreferrer">
                   Virtual Worlds
                 </a>
               </Link>
             </li>
             <li>
               <Link to='/categories'>
-                <a target='_blank'>
+                <a target='_blank' rel="noreferrer">
                   Collectibles
                 </a>
               </Link>
             </li>
             <li>
               <Link to='/categories'>
-                <a target='_blank'>
+                <a target='_blank' rel="noreferrer">
                   Music
                 </a>
               </Link>
             </li>
             <li>
               <Link to='/categories'>
-                <a target='_blank'>
+                <a target='_blank' rel="noreferrer">
                   Games
                 </a>
               </Link>
             </li>
             <li>
               <Link to='/categories'>
-                <a target='_blank'>
+                <a target='_blank' rel="noreferrer">
                   Domains
                 </a>
               </Link>
             </li>
             <li>
               <Link to='/categories'>
-                <a target='_blank'>
+                <a target='_blank' rel="noreferrer">
                   Memes
                 </a>
               </Link>

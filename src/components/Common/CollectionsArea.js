@@ -13,9 +13,9 @@ const CollectionsArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='collections-card'>
                 <Link to='/collection'>
-                  <a>
+                  <a href={() => false}>
                     <img
-                      src={require('../../assets/imgs/collections/collections-img1.png')}
+                      src={require('../../assets/imgs/trending/trending-img5.png')}
                       alt='Images'
                     />
                   </a>
@@ -30,7 +30,7 @@ const CollectionsArea = () => {
                   <h3>
                     
                     <Link to='/collection'>
-                      <a>Wrapped Cryptopunks</a>
+                      <a href={() => false}>Wrapped Cryptopunks</a>
                     </Link>
                   </h3>
                   <span>ETH - 11,256</span>
@@ -41,9 +41,9 @@ const CollectionsArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='collections-card'>
                 <Link to='/collection'>
-                  <a>
+                  <a href={() => false}>
                     <img
-                      src={require('../../assets/imgs/collections/collections-img2.png')}
+                      src={require('../../assets/imgs/trending/trending-img6.png')}
                       alt='Images'
                     />
                   </a>
@@ -58,7 +58,7 @@ const CollectionsArea = () => {
                   <h3>
                     
                     <Link to='/collection'>
-                      <a>Art Blocks</a>
+                      <a href={() => false}>Art Blocks</a>
                     </Link>
                   </h3>
                   <span>ETH - 12,256</span>
@@ -69,9 +69,9 @@ const CollectionsArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='collections-card'>
                 <Link to='/collection'>
-                  <a>
+                  <a href={() => false}>
                     <img
-                      src={require('../../assets/imgs/collections/collections-img3.png')}
+                      src={require('../../assets/imgs/trending/trending-img7.png')}
                       alt='Images'
                     />
                   </a>
@@ -86,7 +86,7 @@ const CollectionsArea = () => {
                   <h3>
                     
                     <Link to='/collection'>
-                      <a>Hashmasks</a>
+                      <a href={() => false}>Hashmasks</a>
                     </Link>
                   </h3>
                   <span>ETH - 11,764</span>
@@ -97,9 +97,9 @@ const CollectionsArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='collections-card'>
                 <Link to='/collection'>
-                  <a>
+                  <a href={() => false}>
                     <img
-                      src={require('../../assets/imgs/collections/collections-img4.png')}
+                      src={require('../../assets/imgs/trending/trending-img8.png')}
                       alt='Images'
                     />
                   </a>
@@ -114,7 +114,7 @@ const CollectionsArea = () => {
                   <h3>
                     
                     <Link to='/collection'>
-                      <a>Inventory</a>
+                      <a href={() => false}>Inventory</a>
                     </Link>
                   </h3>
                   <span>ETH - 13,264</span>

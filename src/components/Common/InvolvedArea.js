@@ -21,27 +21,27 @@ const InvolvedArea = () => {
                 </h3>
                 <ul className='social-link'>
                   <li>
-                    <a href='https://www.google.com/' target='_blank'>
+                    <a href='https://www.google.com/' target='_blank' rel="noreferrer">
                       <i className='ri-google-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.facebook.com/' target='_blank'>
+                    <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
                       <i className='ri-facebook-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.instagram.com/' target='_blank'>
+                    <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
                       <i className='ri-instagram-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://twitter.com/' target='_blank'>
+                    <a href='https://twitter.com/' target='_blank' rel="noreferrer">
                       <i className='ri-twitter-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.linkedin.com/' target='_blank'>
+                    <a href='https://www.linkedin.com/' target='_blank' rel="noreferrer">
                       <i className='ri-linkedin-fill'></i>
                     </a>
                   </li>
@@ -58,7 +58,7 @@ const InvolvedArea = () => {
                   Become A <b>Creator</b>
                 </h3>
                 <Link to='/register'>
-                  <a className='default-btn'>
+                  <a className='default-btn' href={() => false}>
                     Register
                   </a>
                 </Link>
@@ -74,7 +74,7 @@ const InvolvedArea = () => {
                   Become A <b>Charity Partner</b>
                 </h3>
                 <Link to='/create-collection'>
-                  <a className='default-btn'>
+                  <a className='default-btn' href={() => false}>
                     Express Interest
                   </a>
                 </Link>
@@ -90,7 +90,7 @@ const InvolvedArea = () => {
                   Reach Out To <b>Our Team</b>
                 </h3>
                 <Link to='/contact'>
-                  <a className='default-btn'>
+                  <a className='default-btn' href={() => false}>
                     Contact Now
                   </a>
                 </Link>

@@ -26,7 +26,7 @@ const CreateArea = () => {
                         alt='Images'
                       />
                       <h3> <Link to='/add-wallet'>
-                        <a>Set Up Your Wallet</a></Link>
+                        <a href={() => false}>Set Up Your Wallet</a></Link>
                       </h3>
                       <p>
                         connect wallet by clicking the wallet icon in the top
@@ -42,7 +42,7 @@ const CreateArea = () => {
                         alt='Images'
                       />
                       <h3><Link to='/create-collection'>
-                        <a>
+                        <a href={() => false}>
                           Create Your Collection
                         </a></Link>
                       </h3>
@@ -60,7 +60,7 @@ const CreateArea = () => {
                         alt='Images'
                       />
                       <h3><Link to='/help-center'>
-                        <a> Add Your NFTs</a></Link>
+                        <a href={() => false}> Add Your NFTs</a></Link>
                       </h3>
                       <p>
                         Upload your work (image, video, audio, or 3D art), add a
@@ -76,7 +76,7 @@ const CreateArea = () => {
                         alt='Images'
                       />
                       <h3><Link to='/activity'>
-                        <a>List Them For Sale</a></Link>
+                        <a href={() => false}>List Them For Sale</a></Link>
                       </h3>
                       <p>
                         Choose between auctions, fixed-price listings, and

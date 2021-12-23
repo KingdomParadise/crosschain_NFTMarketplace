@@ -25,7 +25,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-item'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img5.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -41,7 +41,7 @@ const AuthorArea = () => {
                     <div className='author-user-content'>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>Olivia Jenar</a>
+                          <a href={() => false}>Olivia Jenar</a>
                         </Link>
                       </h3>
                       <span>@Jenar</span>
@@ -58,17 +58,17 @@ const AuthorArea = () => {
                       Follow
                       <ul className='author-social'>
                         <li>
-                          <a href='https://www.facebook.com/' target='_blank'>
+                          <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
                             <i className='ri-facebook-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://www.instagram.com/' target='_blank'>
+                          <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
                             <i className='ri-instagram-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://twitter.com/' target='_blank'>
+                          <a href='https://twitter.com/' target='_blank' rel="noreferrer">
                             <i className='ri-twitter-fill'></i>
                           </a>
                         </li>
@@ -82,7 +82,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-item'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img2.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -98,7 +98,7 @@ const AuthorArea = () => {
                     <div className='author-user-content'>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>James Parker</a>
+                          <a href={() => false}>James Parker</a>
                         </Link>
                       </h3>
                       <span>@Parker</span>
@@ -115,17 +115,17 @@ const AuthorArea = () => {
                       Follow
                       <ul className='author-social'>
                         <li>
-                          <a href='https://www.facebook.com/' target='_blank'>
+                          <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
                             <i className='ri-facebook-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://www.instagram.com/' target='_blank'>
+                          <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
                             <i className='ri-instagram-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://twitter.com/' target='_blank'>
+                          <a href='https://twitter.com/' target='_blank' rel="noreferrer">
                             <i className='ri-twitter-fill'></i>
                           </a>
                         </li>
@@ -139,7 +139,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-item'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img3.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -155,7 +155,7 @@ const AuthorArea = () => {
                     <div className='author-user-content'>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>Lucas Adison</a>
+                          <a href={() => false}>Lucas Adison</a>
                         </Link>
                       </h3>
                       <span>@Adison</span>
@@ -172,17 +172,17 @@ const AuthorArea = () => {
                       Follow
                       <ul className='author-social'>
                         <li>
-                          <a href='https://www.facebook.com/' target='_blank'>
+                          <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
                             <i className='ri-facebook-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://www.instagram.com/' target='_blank'>
+                          <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
                             <i className='ri-instagram-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://twitter.com/' target='_blank'>
+                          <a href='https://twitter.com/' target='_blank' rel="noreferrer">
                             <i className='ri-twitter-fill'></i>
                           </a>
                         </li>
@@ -196,7 +196,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-item'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img1.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -212,7 +212,7 @@ const AuthorArea = () => {
                     <div className='author-user-content'>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>Amelia Rosia</a>
+                          <a href={() => false}>Amelia Rosia</a>
                         </Link>
                       </h3>
                       <span>@Rosia</span>
@@ -229,17 +229,17 @@ const AuthorArea = () => {
                       Follow
                       <ul className='author-social'>
                         <li>
-                          <a href='https://www.facebook.com/' target='_blank'>
+                          <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
                             <i className='ri-facebook-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://www.instagram.com/' target='_blank'>
+                          <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
                             <i className='ri-instagram-fill'></i>
                           </a>
                         </li>
                         <li>
-                          <a href='https://twitter.com/' target='_blank'>
+                          <a href='https://twitter.com/' target='_blank' rel="noreferrer">
                             <i className='ri-twitter-fill'></i>
                           </a>
                         </li>

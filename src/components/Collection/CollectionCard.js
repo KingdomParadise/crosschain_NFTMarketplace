@@ -52,7 +52,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img1.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -67,7 +67,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Industrial Revolution</a>
+                  <a href={() => false}>Industrial Revolution</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -95,7 +95,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img2.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -114,7 +114,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>I Love In The Air</a>
+                  <a href={() => false}>I Love In The Air</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -143,7 +143,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img3.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -162,7 +162,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Become One With Nature</a>
+                  <a href={() => false}>Become One With Nature</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -191,7 +191,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img4.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -206,7 +206,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Twilight Fracture City</a>
+                  <a href={() => false}>Twilight Fracture City</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -235,7 +235,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img5.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -250,7 +250,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Walking On Air</a>
+                  <a href={() => false}>Walking On Air</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -279,7 +279,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img6.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -294,7 +294,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Supper Nuemorphism</a>
+                  <a href={() => false}>Supper Nuemorphism</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -323,7 +323,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                  <a>
+                  <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img7.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -338,7 +338,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Dark-light Angel</a>
+                  <a href={() => false}>Dark-light Angel</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -367,7 +367,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img8.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -382,7 +382,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Exe Dream Hight</a>
+                  <a href={() => false}>Exe Dream Hight</a>
                 </Link>
               </h3>
               <div className='content-in'>
@@ -411,7 +411,7 @@ const CollectionCard = () => {
           <div className='featured-card box-shadow'>
             <div className='featured-card-img'>
               <Link to='/item-details'>
-                <a>
+                <a href={() => false}>
                   <img src={require('../../assets/imgs/featured/featured-img9.jpg')} alt='Images' />
                 </a>
               </Link>
@@ -426,7 +426,7 @@ const CollectionCard = () => {
             <div className='content'>
               <h3>
                 <Link to='/item-details'>
-                  <a>Art Of The Infinity</a>
+                  <a href={() => false}>Art Of The Infinity</a>
                 </Link>
               </h3>
               <div className='content-in'>

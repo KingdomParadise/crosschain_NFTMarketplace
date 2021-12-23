@@ -50,7 +50,7 @@ const Navbar = () => {
               </div>
               <div className='logo'>
                 <Link to='/'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/logo-2.png')} alt='logo' />
                   </a>
                 </Link>
@@ -327,7 +327,7 @@ const Navbar = () => {
                   <ul className='optional-item-list'>
                     <li>
                       <Link to='/create-collection' activeClassName='active'>
-                        <a>Create</a>
+                        <a href={() => false}>Create</a>
                       </Link>
                     </li>
                     <li>
@@ -382,7 +382,7 @@ const Navbar = () => {
                           href='/create-collection'
                           activeClassName='active'
                         >
-                          <a>Create</a>
+                          <a href={() => false}>Create</a>
                         </Link>
                       </li>
                       <li>

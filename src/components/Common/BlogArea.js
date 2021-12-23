@@ -26,7 +26,7 @@ const BlogArea = () => {
               <div className='blog-card'>
                 <div className='blog-img'>
                   <Link to='/blog-details'>
-                    <a>
+                    <a href={() => false}>
                       <img src={require('../../assets/imgs/blog/blog-img1.jpg')} alt='Images' />
                     </a>
                   </Link>
@@ -49,7 +49,7 @@ const BlogArea = () => {
                 <div className='content'>
                   <h3>
                     <Link to='/blog-details'>
-                      <a>Announcing Our $100m Raise, Led By A16z</a>
+                      <a href={() => false}>Announcing Our $100m Raise, Led By A16z</a>
                     </Link>
                   </h3>
                   <ul>
@@ -64,7 +64,7 @@ const BlogArea = () => {
               <div className='blog-card'>
                 <div className='blog-img'>
                   <Link to='/item-details'>
-                    <a>
+                    <a href={() => false}>
                       <img src={require('../../assets/imgs/blog/blog-img2.jpg')} alt='Images' />
                     </a>
                   </Link>
@@ -87,7 +87,7 @@ const BlogArea = () => {
                 <div className='content'>
                   <h3>
                     <Link to='/blog-details'>
-                      <a>
+                      <a href={() => false}>
                         Edition365: A Portrait Of The Year That Changed
                         Everything
                       </a>
@@ -105,7 +105,7 @@ const BlogArea = () => {
               <div className='blog-card'>
                 <div className='blog-img'>
                   <Link to='/blog-details'>
-                    <a>
+                    <a href={() => false}>
                       <img src={require('../../assets/imgs/blog/blog-img3.jpg')} alt='Images' />
                     </a>
                   </Link>
@@ -128,7 +128,7 @@ const BlogArea = () => {
                 <div className='content'>
                   <h3>
                     <Link to='/blog-details'>
-                      <a>
+                      <a href={() => false}>
                         Christie’s Ended Up Selling For $69 Million In Nft
                         Marketplace
                       </a>

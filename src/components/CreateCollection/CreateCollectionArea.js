@@ -19,7 +19,7 @@ const CreateCollectionArea = () => {
 
                 <h3>
                   <Link to='/author-profile'>
-                    <a>Olivia Jenar</a>
+                    <a href={() => false}>Olivia Jenar</a>
                   </Link>
                 </h3>
                 <span>@Jenar</span>
@@ -40,17 +40,17 @@ const CreateCollectionArea = () => {
                     Follow
                     <ul className='author-social'>
                       <li>
-                        <a href='https://www.facebook.com/' target='_blank'>
+                        <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
                           <i className='ri-facebook-fill'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='https://www.instagram.com/' target='_blank'>
+                        <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
                           <i className='ri-instagram-fill'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='https://twitter.com/' target='_blank'>
+                        <a href='https://twitter.com/' target='_blank' rel="noreferrer">
                           <i className='ri-twitter-fill'></i>
                         </a>
                       </li>
@@ -115,63 +115,63 @@ const CreateCollectionArea = () => {
                     <ul>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Art
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Virtual Worlds
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Trending Cards
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Collectibles
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Music
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Games
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Domains
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             Memes
                           </a>
                         </Link>
                       </li>
                       <li>
                         <Link to='/create-collection'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer" href={() => false}>
                             NFT Gifts
                           </a>
                         </Link>

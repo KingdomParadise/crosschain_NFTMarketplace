@@ -10,7 +10,7 @@ const Footer = () => {
 							<div className="footer-widget">
 								<div className="footer-logo">
 									<Link to="/">
-										<a>
+										<a href={() => false}>
 											<img
 												src={require('../../assets/imgs/footer-logo.jpg')}
 												alt="Footer Logo"
@@ -54,22 +54,22 @@ const Footer = () => {
 								<ul className="footer-list">
 									<li>
 										<Link to="/discover-1">
-											<a>Art</a>
+											<a href={() => false}>Art</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/discover-1">
-											<a>All NFTs</a>
+											<a href={() => false}>All NFTs</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/discover-1">
-											<a>Music</a>
+											<a href={() => false}>Music</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/discover-1">
-											<a>Trending Cards</a>
+											<a href={() => false}>Trending Cards</a>
 										</Link>
 									</li>
 								</ul>
@@ -82,22 +82,22 @@ const Footer = () => {
 								<ul className="footer-list">
 									<li>
 										<Link to="/authors">
-											<a>Authors</a>
+											<a href={() => false}>Authors</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/collection">
-											<a>Collection</a>
+											<a href={() => false}>Collection</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/author-profile">
-											<a>Author Profile</a>
+											<a href={() => false}>Author Profile</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/create-collection">
-											<a>Create Collection</a>
+											<a href={() => false}>Create Collection</a>
 										</Link>
 									</li>
 								</ul>
@@ -110,24 +110,24 @@ const Footer = () => {
 								<ul className="footer-list">
 									<li>
 										<Link to="/help-center">
-											<a>Helps & Support</a>
+											<a href={() => false}>Helps & Support</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/auction">
-											<a>Live Auctions</a>
+											<a href={() => false}>Live Auctions</a>
 										</Link>
 									</li>
 
 									<li>
 										<Link to="/item-details">
-											<a>Item Details</a>
+											<a href={() => false}>Item Details</a>
 										</Link>
 									</li>
 
 									<li>
 										<Link to="/activity">
-											<a>Activity</a>
+											<a href={() => false}>Activity</a>
 										</Link>
 									</li>
 								</ul>
@@ -140,23 +140,23 @@ const Footer = () => {
 								<ul className="footer-list">
 									<li>
 										<Link to="/about">
-											<a>About Us</a>
+											<a href={() => false}>About Us</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/contact">
-											<a>Contact Us</a>
+											<a href={() => false}>Contact Us</a>
 										</Link>
 									</li>
 
 									<li>
 										<Link to="/blog-1">
-											<a>Our Blog</a>
+											<a href={() => false}>Our Blog</a>
 										</Link>
 									</li>
 									<li>
 										<Link to="/discover-1">
-											<a>Discover</a>
+											<a href={() => false}>Discover</a>
 										</Link>
 									</li>
 								</ul>

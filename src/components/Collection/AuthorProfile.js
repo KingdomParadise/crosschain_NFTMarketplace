@@ -15,7 +15,7 @@ const AuthorProfile = () => {
 
         <h3>
           <Link to='/author-profile'>
-            <a>Olivia Jenar</a>
+            <a href={() => false}>Olivia Jenar</a>
           </Link>
         </h3>
         <span>@Jenar</span>

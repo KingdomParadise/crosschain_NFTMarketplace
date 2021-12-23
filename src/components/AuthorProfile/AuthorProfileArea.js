@@ -61,7 +61,7 @@ const AuthorProfileArea = () => {
 
                 <h3>
                   <Link to="/author-profile">
-                    <a>Samuel Wanjiru</a>
+                    <a href={() => false}>Samuel Wanjiru</a>
                   </Link>
                 </h3>
                 <span>@Samuel</span>
@@ -121,20 +121,20 @@ const AuthorProfileArea = () => {
                     <ul className="tabs author-tabs">
                       <TabList>
                         <Tab>
-                          <a>All</a>
+                          <a href={() => false}>All</a>
                         </Tab>
                         <Tab>
-                          <a>Art</a>
+                          <a href={() => false}>Art</a>
                         </Tab>
 
                         <Tab>
-                          <a>Virtual Worlds</a>
+                          <a href={() => false}>Virtual Worlds</a>
                         </Tab>
                         <Tab>
-                          <a>Collectibles</a>
+                          <a href={() => false}>Collectibles</a>
                         </Tab>
                         <Tab>
-                          <a>Music</a>
+                          <a href={() => false}>Music</a>
                         </Tab>
                       </TabList>
                     </ul>
@@ -148,7 +148,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img1.jpg")}
                                       alt="Images"
@@ -169,7 +169,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Industrial Revolution</a>
+                                    <a href={() => false}>Industrial Revolution</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -178,13 +178,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 80 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -200,7 +200,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
@@ -227,7 +227,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>I Love In The Air</a>
+                                    <a href={() => false}>I Love In The Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -236,13 +236,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 70 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
@@ -258,7 +258,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img3.jpg")}
                                       alt="Images"
@@ -285,7 +285,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Become One With Nature</a>
+                                    <a href={() => false}>Become One With Nature</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -294,13 +294,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 80 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
@@ -316,7 +316,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img4.jpg")}
                                       alt="Images"
@@ -337,7 +337,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Twilight Fracture City</a>
+                                    <a href={() => false}>Twilight Fracture City</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -346,13 +346,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 90 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
@@ -368,7 +368,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
@@ -389,7 +389,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Walking On Air</a>
+                                    <a href={() => false}>Walking On Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -398,13 +398,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 80 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
@@ -420,7 +420,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
@@ -441,7 +441,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Supper Nuemorphism</a>
+                                    <a href={() => false}>Supper Nuemorphism</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -450,13 +450,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 90 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
@@ -472,7 +472,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
@@ -493,7 +493,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Dark-light Angel</a>
+                                    <a href={() => false}>Dark-light Angel</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -502,13 +502,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 100 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
@@ -524,7 +524,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
@@ -545,7 +545,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Exe Dream Hight</a>
+                                    <a href={() => false}>Exe Dream Hight</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -554,13 +554,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 90 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
@@ -576,7 +576,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
@@ -597,7 +597,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Art Of The Infinity</a>
+                                    <a href={() => false}>Art Of The Infinity</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -606,13 +606,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 90 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -634,7 +634,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
@@ -655,7 +655,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Industrial Revolution</a>
+                                    <a href={() => false}>Industrial Revolution</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -664,13 +664,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 80 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -686,7 +686,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
@@ -713,7 +713,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>I Love In The Air</a>
+                                    <a href={() => false}>I Love In The Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -722,13 +722,13 @@ const AuthorProfileArea = () => {
                                     <h4>Bid 70 ETH </h4>
                                   </div>
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
@@ -744,7 +744,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img4.jpg")}
                                       alt="Images"
@@ -771,7 +771,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Become One With Nature</a>
+                                    <a href={() => false}>Become One With Nature</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -781,13 +781,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
@@ -803,7 +803,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
@@ -824,7 +824,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Twilight Fracture City</a>
+                                    <a href={() => false}>Twilight Fracture City</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -834,13 +834,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
@@ -856,7 +856,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
@@ -877,7 +877,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Walking On Air</a>
+                                    <a href={() => false}>Walking On Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -887,14 +887,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
@@ -910,7 +910,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
@@ -931,7 +931,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Supper Nuemorphism</a>
+                                    <a href={() => false}>Supper Nuemorphism</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -941,13 +941,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
@@ -963,7 +963,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
@@ -984,7 +984,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Dark-light Angel</a>
+                                    <a href={() => false}>Dark-light Angel</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -994,13 +994,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
@@ -1016,7 +1016,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
@@ -1037,7 +1037,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Exe Dream Hight</a>
+                                    <a href={() => false}>Exe Dream Hight</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1047,14 +1047,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
@@ -1070,7 +1070,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
@@ -1091,7 +1091,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Art Of The Infinity</a>
+                                    <a href={() => false}>Art Of The Infinity</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1101,14 +1101,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -1130,7 +1130,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img1.jpg")}
                                       alt="Images"
@@ -1151,7 +1151,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Industrial Revolution</a>
+                                    <a href={() => false}>Industrial Revolution</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1161,14 +1161,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -1184,7 +1184,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
@@ -1211,7 +1211,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>I Love In The Air</a>
+                                    <a href={() => false}>I Love In The Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1221,14 +1221,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
@@ -1244,7 +1244,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img3.jpg")}
                                       alt="Images"
@@ -1271,7 +1271,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Become One With Nature</a>
+                                    <a href={() => false}>Become One With Nature</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1281,14 +1281,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
@@ -1304,7 +1304,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img4.jpg")}
                                       alt="Images"
@@ -1325,7 +1325,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Twilight Fracture City</a>
+                                    <a href={() => false}>Twilight Fracture City</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1335,14 +1335,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
@@ -1358,7 +1358,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
@@ -1379,7 +1379,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Walking On Air</a>
+                                    <a href={() => false}>Walking On Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1389,14 +1389,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/item-details">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
@@ -1412,7 +1412,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
@@ -1433,7 +1433,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Supper Nuemorphism</a>
+                                    <a href={() => false}>Supper Nuemorphism</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1443,13 +1443,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
@@ -1465,7 +1465,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
@@ -1486,7 +1486,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Dark-light Angel</a>
+                                    <a href={() => false}>Dark-light Angel</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1496,14 +1496,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
@@ -1519,7 +1519,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
@@ -1540,7 +1540,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Exe Dream Hight</a>
+                                    <a href={() => false}>Exe Dream Hight</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1550,14 +1550,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
@@ -1573,7 +1573,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
@@ -1594,7 +1594,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Art Of The Infinity</a>
+                                    <a href={() => false}>Art Of The Infinity</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1604,14 +1604,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -1633,7 +1633,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
@@ -1654,7 +1654,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Industrial Revolution</a>
+                                    <a href={() => false}>Industrial Revolution</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1664,13 +1664,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -1686,7 +1686,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img3.jpg")}
                                       alt="Images"
@@ -1713,7 +1713,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>I Love In The Air</a>
+                                    <a href={() => false}>I Love In The Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1723,14 +1723,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
@@ -1746,7 +1746,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
@@ -1773,7 +1773,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Become One With Nature</a>
+                                    <a href={() => false}>Become One With Nature</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1783,13 +1783,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
@@ -1805,7 +1805,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
@@ -1826,7 +1826,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Fracture City</a>
+                                    <a href={() => false}>Fracture City</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1836,14 +1836,14 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
 
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
@@ -1859,7 +1859,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
@@ -1880,7 +1880,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Walking On Air</a>
+                                    <a href={() => false}>Walking On Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1890,13 +1890,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
@@ -1912,7 +1912,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
@@ -1933,7 +1933,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Supper Nuemorphism</a>
+                                    <a href={() => false}>Supper Nuemorphism</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1943,13 +1943,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
@@ -1965,7 +1965,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
@@ -1986,7 +1986,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Dark-light Angel</a>
+                                    <a href={() => false}>Dark-light Angel</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -1996,13 +1996,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
@@ -2018,7 +2018,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
@@ -2039,7 +2039,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Exe Dream Hight</a>
+                                    <a href={() => false}>Exe Dream Hight</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2049,13 +2049,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
@@ -2071,7 +2071,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
@@ -2092,7 +2092,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Art Of The Infinity</a>
+                                    <a href={() => false}>Art Of The Infinity</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2102,13 +2102,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -2130,7 +2130,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img1.jpg")}
                                       alt="Images"
@@ -2151,7 +2151,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Industrial Revolution</a>
+                                    <a href={() => false}>Industrial Revolution</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2161,13 +2161,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -2183,7 +2183,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img2.jpg")}
                                       alt="Images"
@@ -2210,7 +2210,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>I Love In The Air</a>
+                                    <a href={() => false}>I Love In The Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2220,13 +2220,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user2.jpg")}
                                       alt="Images"
@@ -2242,7 +2242,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img3.jpg")}
                                       alt="Images"
@@ -2269,7 +2269,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Become One With Nature</a>
+                                    <a href={() => false}>Become One With Nature</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2279,13 +2279,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user3.jpg")}
                                       alt="Images"
@@ -2301,7 +2301,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img4.jpg")}
                                       alt="Images"
@@ -2322,7 +2322,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Twilight Fracture City</a>
+                                    <a href={() => false}>Twilight Fracture City</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2332,13 +2332,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user4.jpg")}
                                       alt="Images"
@@ -2354,7 +2354,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img5.jpg")}
                                       alt="Images"
@@ -2375,7 +2375,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Walking On Air</a>
+                                    <a href={() => false}>Walking On Air</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2385,13 +2385,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user5.jpg")}
                                       alt="Images"
@@ -2407,7 +2407,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img6.jpg")}
                                       alt="Images"
@@ -2428,7 +2428,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Supper Nuemorphism</a>
+                                    <a href={() => false}>Supper Nuemorphism</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2438,13 +2438,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user6.jpg")}
                                       alt="Images"
@@ -2460,7 +2460,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img7.jpg")}
                                       alt="Images"
@@ -2481,7 +2481,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Dark-light Angel</a>
+                                    <a href={() => false}>Dark-light Angel</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2491,13 +2491,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user7.jpg")}
                                       alt="Images"
@@ -2513,7 +2513,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img8.jpg")}
                                       alt="Images"
@@ -2534,7 +2534,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Exe Dream Hight</a>
+                                    <a href={() => false}>Exe Dream Hight</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2544,13 +2544,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user8.jpg")}
                                       alt="Images"
@@ -2566,7 +2566,7 @@ const AuthorProfileArea = () => {
                             <div className="featured-card box-shadow">
                               <div className="featured-card-img">
                                 <Link to="/item-details">
-                                  <a>
+                                  <a href={() => false}>
                                     <img
                                       src={require("../../assets/imgs/featured/featured-img9.jpg")}
                                       alt="Images"
@@ -2587,7 +2587,7 @@ const AuthorProfileArea = () => {
                               <div className="content">
                                 <h3>
                                   <Link to="/item-details">
-                                    <a>Art Of The Infinity</a>
+                                    <a href={() => false}>Art Of The Infinity</a>
                                   </Link>
                                 </h3>
                                 <div className="content-in">
@@ -2597,13 +2597,13 @@ const AuthorProfileArea = () => {
                                   </div>
 
                                   <Link to="/item-details">
-                                    <a className="featured-content-btn">
+                                    <a href={() => false} className="featured-content-btn">
                                       <i className="ri-arrow-right-line"></i>
                                     </a>
                                   </Link>
                                 </div>
                                 <Link to="/author-profile">
-                                  <a className="featured-user-option">
+                                  <a href={() => false} className="featured-user-option">
                                     <img
                                       src={require("../../assets/imgs/featured/featured-user1.jpg")}
                                       alt="Images"
@@ -2623,21 +2623,21 @@ const AuthorProfileArea = () => {
 
               <div className="col-lg-12 col-md-12">
                 <div className="pagination-area">
-                  <a href="#" className="prev page-numbers">
+                  <a href={() => false} className="prev page-numbers">
                     <i className="ri-arrow-left-s-line"></i>
                   </a>
 
                   <span className="page-numbers current" aria-current="page">
                     1
                   </span>
-                  <a href="#" className="page-numbers">
+                  <a href={() => false} className="page-numbers">
                     2
                   </a>
-                  <a href="#" className="page-numbers">
+                  <a href={() => false} className="page-numbers">
                     3
                   </a>
 
-                  <a href="#" className="next page-numbers">
+                  <a href={() => false} className="next page-numbers">
                     <i className="ri-arrow-right-s-line"></i>
                   </a>
                 </div>

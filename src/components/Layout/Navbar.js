@@ -50,7 +50,7 @@ const Navbar = () => {
             </ul>
             <ul className="navbar-nav navbar-nav-right">
             <li className="nav-item dropdown d-none d-lg-block">
-                <a className="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href="#">+ Create New Project</a>
+                <a className="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href={() => false}>+ Create New Project</a>
                 <div className="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
                 <h6 className="p-3 mb-0">Projects</h6>
                 <div className="dropdown-divider"></div>
@@ -91,12 +91,12 @@ const Navbar = () => {
                 </div>
             </li>
             <li className="nav-item nav-settings d-none d-lg-block">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href={() => false}>
                 <i className="mdi mdi-view-grid"></i>
                 </a>
             </li>
             <li className="nav-item dropdown border-left">
-                <a className="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                <a className="nav-link count-indicator dropdown-toggle" id="messageDropdown" href={() => false} data-toggle="dropdown" aria-expanded="false">
                 <i className="mdi mdi-email"></i>
                 <span className="count bg-success"></span>
                 </a>
@@ -137,7 +137,7 @@ const Navbar = () => {
                 </div>
             </li>
             <li className="nav-item dropdown border-left">
-                <a className="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                <a className="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href={() => false} data-toggle="dropdown">
                 <i className="mdi mdi-bell"></i>
                 <span className="count bg-danger"></span>
                 </a>
@@ -184,7 +184,7 @@ const Navbar = () => {
                 </div>
             </li>
             <li className="nav-item dropdown">
-                <a className="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                <a className="nav-link" id="profileDropdown" href={() => false} data-toggle="dropdown">
                 <div className="navbar-profile">
                     <img className="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt="" />
                     <p className="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>

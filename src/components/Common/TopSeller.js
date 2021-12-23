@@ -15,7 +15,7 @@ const TopSeller = ({ pt100 }) => {
             <div className='col-lg-4 col-md-5'>
               <div className='trending-btn text-end'>
                 <Link to='/author'>
-                  <a className='default-btn border-radius-5'>Explore More</a>
+                  <a className='default-btn border-radius-5' href={() => false}>Explore More</a>
                 </Link>
               </div>
             </div>
@@ -27,7 +27,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>1.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers1.jpg')}
                         alt='Images'
@@ -39,7 +39,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Benjamin Doe</a>
+                      <a href={() => false}>Benjamin Doe</a>
                     </Link>
                   </h3>
                   <span>129.301 ETH</span>
@@ -52,7 +52,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>2.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers2.jpg')}
                         alt='Images'
@@ -64,7 +64,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Evelyn Adison</a>
+                      <a href={() => false}>Evelyn Adison</a>
                     </Link>
                   </h3>
                   <span>130.201 ETH</span>
@@ -77,7 +77,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>3.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers3.jpg')}
                         alt='Images'
@@ -89,7 +89,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Aria July</a>
+                      <a href={() => false}>Aria July</a>
                     </Link>
                   </h3>
                   <span>120.101 ETH</span>
@@ -102,7 +102,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>4.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers4.jpg')}
                         alt='Images'
@@ -114,7 +114,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Aria July</a>
+                      <a href={() => false}>Aria July</a>
                     </Link>
                   </h3>
                   <span>124.101 ETH</span>
@@ -127,7 +127,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>5.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers5.jpg')}
                         alt='Images'
@@ -139,7 +139,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Sebastian Farnil</a>
+                      <a href={() => false}>Sebastian Farnil</a>
                     </Link>
                   </h3>
                   <span>127.301 ETH</span>
@@ -152,7 +152,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>6.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers6.jpg')}
                         alt='Images'
@@ -164,7 +164,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Henry Martina</a>
+                      <a href={() => false}>Henry Martina</a>
                     </Link>
                   </h3>
                   <span>128.301 ETH</span>
@@ -177,7 +177,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>7.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers7.jpg')}
                         alt='Images'
@@ -189,7 +189,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Daniel Adams</a>
+                      <a href={() => false}>Daniel Adams</a>
                     </Link>
                   </h3>
                   <span>130.301 ETH</span>
@@ -202,7 +202,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>8.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers8.jpg')}
                         alt='Images'
@@ -214,7 +214,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Julian Rin</a>
+                      <a href={() => false}>Julian Rin</a>
                     </Link>
                   </h3>
                   <span>120.201 ETH</span>
@@ -227,7 +227,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>9.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers9.jpg')}
                         alt='Images'
@@ -239,7 +239,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Samuel Anvi</a>
+                      <a href={() => false}>Samuel Anvi</a>
                     </Link>
                   </h3>
                   <span>130.201 ETH</span>
@@ -252,7 +252,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>10.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers10.jpg')}
                         alt='Images'
@@ -264,7 +264,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Emilia Adison</a>
+                      <a href={() => false}>Emilia Adison</a>
                     </Link>
                   </h3>
                   <span>124.201 ETH</span>
@@ -277,7 +277,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>11.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers11.jpg')}
                         alt='Images'
@@ -289,7 +289,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Muhammad Ali</a>
+                      <a href={() => false}>Muhammad Ali</a>
                     </Link>
                   </h3>
                   <span>127.201 ETH</span>
@@ -302,7 +302,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='number'>12.</div>
                 <div className='top-sellers-img'>
                   <Link to='/author-profile'>
-                    <a>
+                    <a href={() => false}>
                       <img
                         src={require('../../assets/imgs/top-sellers/top-sellers12.jpg')}
                         alt='Images'
@@ -314,7 +314,7 @@ const TopSeller = ({ pt100 }) => {
                 <div className='content'>
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Alexander Luis</a>
+                      <a href={() => false}>Alexander Luis</a>
                     </Link>
                   </h3>
                   <span>129.201 ETH</span>

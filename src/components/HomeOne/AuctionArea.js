@@ -25,7 +25,7 @@ const options = {
 
 const AuctionArea = () => {
   const [display, setDisplay] = useState(false);
-  const [isMounted, setisMounted] = useState(false);
+  const [, setisMounted] = useState(false);
 
   useEffect(() => {
     setisMounted(true);
@@ -46,7 +46,7 @@ const AuctionArea = () => {
             <div className='col-lg-4 col-md-4'>
               <div className='auction-btn text-end'>
                 <Link to='/auction'>
-                  <a className='default-btn border-radius-5'>
+                  <a className='default-btn border-radius-5' href={() => false}>
                     Explore More
                   </a>
                 </Link>
@@ -60,9 +60,9 @@ const AuctionArea = () => {
                 <div className='auction-item'>
                   <div className='auction-item-img'>
                     <Link to='/auction'>
-                      <a>
+                      <a href={() => false}>
                         <img
-                          src={require('../../assets/imgs/auctions/auctions-img.jpg')}
+                          src={require('../../assets/imgs/trending/trending-img7.png')}
                           alt='Images'
                         />
                       </a>
@@ -86,7 +86,7 @@ const AuctionArea = () => {
                     <div className='auction-item-list'>
                       <div className='auction-item-list-img'>
                         <Link to='/author-profile'>
-                          <a>
+                          <a href={() => false}>
                             <img
                               src={require('../../assets/imgs/auctions/auctions-user1.jpg')}
                               alt='Images'
@@ -97,18 +97,18 @@ const AuctionArea = () => {
                       </div>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>Walking on Air</a>
+                          <a href={() => false}>Walking on Air</a>
                         </Link>
                       </h3>
                       <span>
                         Created by
                         <Link to='/author-profile'>
-                          <a>@Emilia</a>
+                          <a href={() => false}>@Emilia</a>
                         </Link>
                       </span>
                     </div>
                     <Link to='/author-profile'>
-                      <a className='auction-item-btn'>
+                      <a className='auction-item-btn' href={() => false}>
                         <i className='ri-arrow-right-line'></i>
                       </a>
                     </Link>
@@ -124,9 +124,9 @@ const AuctionArea = () => {
                 <div className='auction-item'>
                   <div className='auction-item-img'>
                     <Link to='/auction'>
-                      <a>
+                      <a href={() => false}>
                         <img
-                          src={require('../../assets/imgs/auctions/auctions-img2.jpg')}
+                          src={require('../../assets/imgs/trending/trending-img8.png')}
                           alt='Images'
                         />
                       </a>
@@ -150,7 +150,7 @@ const AuctionArea = () => {
                     <div className='auction-item-list'>
                       <div className='auction-item-list-img'>
                         <Link to='/author-profile'>
-                          <a>
+                          <a href={() => false}>
                             <img
                               src={require('../../assets/imgs/auctions/auctions-user2.jpg')}
                               alt='Images'
@@ -161,19 +161,19 @@ const AuctionArea = () => {
                       </div>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>To Infinity And Beyond</a>
+                          <a href={() => false}>To Infinity And Beyond</a>
                         </Link>
                       </h3>
                       <span>
                         Created by
                         <Link to='/author-profile'>
-                          <a>@Martina</a>
+                          <a href={() => false}>@Martina</a>
                         </Link>
                       </span>
                     </div>
 
                     <Link to='/author-profile'>
-                      <a className='auction-item-btn'>
+                      <a className='auction-item-btn' href={() => false}>
                         <i className='ri-arrow-right-line'></i>
                       </a>
                     </Link>
@@ -190,9 +190,9 @@ const AuctionArea = () => {
                 <div className='auction-item'>
                   <div className='auction-item-img'>
                     <Link to='/auction'>
-                      <a>
+                      <a href={() => false}>
                         <img
-                          src={require('../../assets/imgs/auctions/auctions-img3.jpg')}
+                          src={require('../../assets/imgs/trending/trending-img1.png')}
                           alt='Images'
                         />
                       </a>
@@ -216,7 +216,7 @@ const AuctionArea = () => {
                     <div className='auction-item-list'>
                       <div className='auction-item-list-img'>
                         <Link to='/author-profile'>
-                          <a>
+                          <a href={() => false}>
                             <img
                               src={require('../../assets/imgs/auctions/auctions-user3.jpg')}
                               alt='Images'
@@ -227,18 +227,18 @@ const AuctionArea = () => {
                       </div>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>Industrial Revolution</a>
+                          <a href={() => false}>Industrial Revolution</a>
                         </Link>
                       </h3>
                       <span>
                         Created by
                         <Link to='/author-profile'>
-                          <a>@Julian</a>
+                          <a href={() => false}>@Julian</a>
                         </Link>
                       </span>
                     </div>
                     <Link to='/author-profile'>
-                      <a className='auction-item-btn'>
+                      <a className='auction-item-btn' href={() => false}>
                         <i className='ri-arrow-right-line'></i>
                       </a>
                     </Link>
@@ -254,9 +254,9 @@ const AuctionArea = () => {
                 <div className='auction-item'>
                   <div className='auction-item-img'>
                     <Link to='/auction'>
-                      <a>
+                      <a href={() => false}>
                         <img
-                          src={require('../../assets/imgs/auctions/auctions-img4.jpg')}
+                          src={require('../../assets/imgs/trending/trending-img2.png')}
                           alt='Images'
                         />
                       </a>
@@ -281,7 +281,7 @@ const AuctionArea = () => {
                     <div className='auction-item-list'>
                       <div className='auction-item-list-img'>
                         <Link to='/author-profile'>
-                          <a>
+                          <a href={() => false}>
                             <img
                               src={require('../../assets/imgs/auctions/auctions-user4.jpg')}
                               alt='Images'
@@ -292,18 +292,18 @@ const AuctionArea = () => {
                       </div>
                       <h3>
                         <Link to='/author-profile'>
-                          <a>Become on Nature</a>
+                          <a href={() => false}>Become on Nature</a>
                         </Link>
                       </h3>
                       <span>
                         Created by
                         <Link to='/author-profile'>
-                          <a>@Daniel</a>
+                          <a href={() => false}>@Daniel</a>
                         </Link>
                       </span>
                     </div>
                     <Link to='/author-profile'>
-                      <a className='auction-item-btn'>
+                      <a className='auction-item-btn' href={() => false}>
                         <i className='ri-arrow-right-line'></i>
                       </a>
                     </Link>

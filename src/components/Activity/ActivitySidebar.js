@@ -9,7 +9,7 @@ const ActivitySidebar = () => {
 					<h3 className="title">
 						Filter
 						<Link to="/activity">
-							<a>Clear All</a>
+							<a href={() => false}>Clear All</a>
 						</Link>
 					</h3>
 					<form className="search-form">
@@ -29,37 +29,37 @@ const ActivitySidebar = () => {
 					<ul>
 						<li>
 							<Link to="/categories">
-								<a>Art</a>
+								<a href={() => false}>Art</a>
 							</Link>
 						</li>
 						<li>
 							<Link to="/categories">
-								<a>Virtual Worlds</a>
+								<a href={() => false}>Virtual Worlds</a>
 							</Link>
 						</li>
 						<li>
 							<Link to="/categories">
-								<a>Collectibles</a>
+								<a href={() => false}>Collectibles</a>
 							</Link>
 						</li>
 						<li>
 							<Link to="/categories">
-								<a>Music</a>
+								<a href={() => false}>Music</a>
 							</Link>
 						</li>
 						<li>
 							<Link to="/categories">
-								<a>Games</a>
+								<a href={() => false}>Games</a>
 							</Link>
 						</li>
 						<li>
 							<Link to="/categories">
-								<a>Domains</a>
+								<a href={() => false}>Domains</a>
 							</Link>
 						</li>
 						<li>
 							<Link to="/categories">
-								<a>Memes</a>
+								<a href={() => false}>Memes</a>
 							</Link>
 						</li>
 					</ul>

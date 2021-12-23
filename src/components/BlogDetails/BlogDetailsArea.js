@@ -65,7 +65,7 @@ const BlogDetailsArea = () => {
                     <div className='info'>
                       <h4 className='title-text'>
                         <Link to='/blog-details'>
-                          <a>
+                          <a href={() => false}>
                             Artist interview: Arran Schonberg
                           </a>
                         </Link>
@@ -84,7 +84,7 @@ const BlogDetailsArea = () => {
                     <div className='info'>
                       <h4 className='title-text'>
                         <Link to='/blog-details'>
-                          <a>
+                          <a href={() => false}>
                             Edition365: A Portrait Of The Year That
                           </a>
                         </Link>
@@ -103,7 +103,7 @@ const BlogDetailsArea = () => {
                     <div className='info'>
                       <h4 className='title-text'>
                         <Link to='/blog-details'>
-                          <a>
+                          <a href={() => false}>
                             Announcing Our $100m Raise
                           </a>
                         </Link>
@@ -133,49 +133,49 @@ const BlogDetailsArea = () => {
                   <ul>
                     <li>
                       <Link to='/categories'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Art
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/categories'>
-                          <a target='_blank'>
+                          <a target='_blank' rel="noreferrer">
                             Virtual Worlds
                           </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/categories'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Collectibles
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/categories'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Music
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/categories'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Games
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/categories'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Domains
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/categories'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Memes
                         </a>
                       </Link>
@@ -188,42 +188,42 @@ const BlogDetailsArea = () => {
                   <ul className='side-bar-widget-tag'>
                     <li>
                       <Link to='/tags'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Virtual World
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/tags'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Art
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/tags'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Vision
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/tags'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Music
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/tags'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Domains
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to='/tags'>
-                        <a target='_blank'>
+                        <a target='_blank' rel="noreferrer">
                           Music
                         </a>
                       </Link>
@@ -342,12 +342,12 @@ const BlogDetailsArea = () => {
                         <li className='title'>Tag :</li>
                         <li>
                           <Link to='/tags'>
-                            <a>Vision</a>
+                            <a href={() => false}>Vision</a>
                           </Link>
                         </li>
                         <li>
                           <Link to='/tags'>
-                            <a>Music</a>
+                            <a href={() => false}>Music</a>
                           </Link>
                         </li>
                       </ul>

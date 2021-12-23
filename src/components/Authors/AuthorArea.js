@@ -15,7 +15,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img6.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -27,7 +27,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Olivia Jenar</a>
+                      <a href={() => false}>Olivia Jenar</a>
                     </Link>
                   </h3>
                   <span>@Jenar</span>
@@ -66,7 +66,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img7.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -78,7 +78,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>James Parker</a>
+                      <a href={() => false}>James Parker</a>
                     </Link>
                   </h3>
                   <span>@Parker</span>
@@ -117,7 +117,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img8.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -129,7 +129,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Lucas Adison</a>
+                      <a href={() => false}>Lucas Adison</a>
                     </Link>
                   </h3>
                   <span>@Adison</span>
@@ -168,7 +168,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img12.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -180,7 +180,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Amelia Rosia</a>
+                      <a href={() => false}>Amelia Rosia</a>
                     </Link>
                   </h3>
                   <span>@Rosia</span>
@@ -219,7 +219,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img1.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -231,7 +231,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Barb E. Dahl</a>
+                      <a href={() => false}>Barb E. Dahl</a>
                     </Link>
                   </h3>
                   <span>@Dahl</span>
@@ -270,7 +270,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img2.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -282,7 +282,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Biff Wellington</a>
+                      <a href={() => false}>Biff Wellington</a>
                     </Link>
                   </h3>
                   <span>@Biff</span>
@@ -321,7 +321,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img3.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -333,7 +333,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Adam Zapel</a>
+                      <a href={() => false}>Adam Zapel</a>
                     </Link>
                   </h3>
                   <span>@Adam</span>
@@ -372,7 +372,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img4.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -384,7 +384,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Orson Carte</a>
+                      <a href={() => false}>Orson Carte</a>
                     </Link>
                   </h3>
                   <span>@Orson</span>
@@ -423,7 +423,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img5.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -435,7 +435,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Ray Gunn</a>
+                      <a href={() => false}>Ray Gunn</a>
                     </Link>
                   </h3>
                   <span>@Ray</span>
@@ -474,7 +474,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img9.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -486,7 +486,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Thomas Jon</a>
+                      <a href={() => false}>Thomas Jon</a>
                     </Link>
                   </h3>
                   <span>@Thomas</span>
@@ -525,7 +525,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img11.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -540,7 +540,7 @@ const AuthorArea = () => {
 
                   <h3>
                     <Link to='/author-profile'>
-                      <a>Radil Hence</a>
+                      <a href={() => false}>Radil Hence</a>
                     </Link>
                   </h3>
                   <span>@Hence</span>
@@ -579,7 +579,7 @@ const AuthorArea = () => {
             <div className='col-lg-3 col-6'>
               <div className='author-card box-shadow'>
                 <Link to='/author-profile'>
-                  <a>
+                  <a href={() => false}>
                     <img src={require('../../assets/imgs/author/author-img12.jpg')} alt='Images' />
                   </a>
                 </Link>
@@ -594,7 +594,7 @@ const AuthorArea = () => {
 
                   <h3>
                   <Link to='/author-profile'>
-                    <a>Anvi Jordan</a>
+                    <a href={() => false}>Anvi Jordan</a>
                   </Link>
                   </h3>
                   <span>@Jordan</span>

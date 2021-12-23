@@ -62,10 +62,10 @@ const BannerArea = () => {
                 </p>
                 <div className='banner-btn'>
                   <Link to='/about'>
-                    <a className='default-btn border-radius-5'>Explore More</a>
+                    <a className='default-btn border-radius-5' href={() => false}>Explore More</a>
                   </Link>
                   <Link to='/add-wallet'>
-                    <a className='default-btn two border-radius-5'>
+                    <a className='default-btn two border-radius-5' href={() => false}>
                       Connect NFT
                     </a>
                   </Link>
@@ -104,7 +104,7 @@ const BannerArea = () => {
                         <div className='banner-user-list'>
                           <div className='banner-user-list-img'>
                             <Link to='/author-profile'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/home-one/home-one-user1.jpg')}
                                   alt='Images'
@@ -115,18 +115,18 @@ const BannerArea = () => {
                           </div>
                           <h3>
                             <Link to='/author-profile'>
-                              <a>Flowers in Concrete</a>
+                              <a href={() => false}>Flowers in Concrete</a>
                             </Link>
                           </h3>
                           <span>
                             Created by
                             <Link to='/author-profile'>
-                              <a>@Evelyn</a>
+                              <a href={() => false}>@Evelyn</a>
                             </Link>
                           </span>
                         </div>
                         <Link to='/author-profile'>
-                          <a className='banner-user-btn'>
+                          <a className='banner-user-btn' href={() => false}>
                             <i className='ri-arrow-right-line'></i>
                           </a>
                         </Link>
@@ -168,7 +168,7 @@ const BannerArea = () => {
                         <div className='banner-user-list'>
                           <div className='banner-user-list-img'>
                             <Link to='/author-profile'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/home-one/home-one-user2.jpg')}
                                   alt='Images'
@@ -179,18 +179,18 @@ const BannerArea = () => {
                           </div>
                           <h3>
                             <Link to='/author-profile'>
-                              <a>Walking on Air</a>
+                              <a href={() => false}>Walking on Air</a>
                             </Link>
                           </h3>
                           <span>
                             Created by
                             <Link to='/author-profile'>
-                              <a>@Adison</a>
+                              <a href={() => false}>@Adison</a>
                             </Link>
                           </span>
                         </div>
                         <Link to='/author-profile'>
-                          <a className='banner-user-btn'>
+                          <a className='banner-user-btn' href={() => false}>
                             <i className='ri-arrow-right-line'></i>
                           </a>
                         </Link>

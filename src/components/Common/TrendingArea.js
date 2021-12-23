@@ -32,7 +32,7 @@ const options = {
 
 const TrendingArea = ({ bg }) => {
   const [display, setDisplay] = useState(false);
-  const [isMounted, setisMounted] = useState(false);
+  const [, setisMounted] = useState(false);
 
   useEffect(() => {
     setisMounted(true);
@@ -52,7 +52,7 @@ const TrendingArea = ({ bg }) => {
             <div className='col-lg-4 col-md-6'>
               <div className='trending-btn text-end'>
                 <Link to='/item-details'>
-                  <a className='default-btn border-radius-5'>Explore More</a>
+                  <a href={() => false} className='default-btn border-radius-5'>Explore More</a>
                 </Link>
               </div>
             </div>
@@ -64,9 +64,9 @@ const TrendingArea = ({ bg }) => {
                 <div className='trending-item'>
                   <div className='trending-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
-                          src={require('../../assets/imgs/trending/trending-img6.jpg')}
+                          src={require('../../assets/imgs/trending/trending-img1.png')}
                           alt='Images'
                         />
                       </a>
@@ -74,9 +74,9 @@ const TrendingArea = ({ bg }) => {
 
                     <div className='trending-user'>
                       <Link to='/author-profile'>
-                        <a className='trending-user-option'>
+                        <a href={() => false} className='trending-user-option'>
                           <img
-                            src={require('../../assets/imgs/trending/trending-user1.jpg')}
+                            src={require('../../assets/imgs/trending/trending-img2.png')}
                             alt='Images'
                           />
                           <span>Created by @Farnil</span>
@@ -98,7 +98,7 @@ const TrendingArea = ({ bg }) => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Les Immortal's</a>
+                        <a href={() => false}>Les Immortal's</a>
                       </Link>
                     </h3>
                     <span>
@@ -110,7 +110,7 @@ const TrendingArea = ({ bg }) => {
                 <div className='trending-item'>
                   <div className='trending-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-img7.jpg')}
                           alt='Images'
@@ -119,7 +119,7 @@ const TrendingArea = ({ bg }) => {
                     </Link>
                     <div className='trending-user'>
                       <Link to='/author-profile'>
-                        <a className='trending-user-option'>
+                        <a href={() => false} className='trending-user-option'>
                           <img
                             src={require('../../assets/imgs/trending/trending-user2.jpg')}
                             alt='Images'
@@ -143,7 +143,7 @@ const TrendingArea = ({ bg }) => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Industrial Revolution</a>
+                        <a href={() => false}>Industrial Revolution</a>
                       </Link>
                     </h3>
                     <span>
@@ -155,7 +155,7 @@ const TrendingArea = ({ bg }) => {
                 <div className='trending-item'>
                   <div className='trending-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-img8.jpg')}
                           alt='Images'
@@ -164,7 +164,7 @@ const TrendingArea = ({ bg }) => {
                     </Link>
                     <div className='trending-user'>
                       <Link to='/author-profile'>
-                        <a className='trending-user-option'>
+                        <a href={() => false} className='trending-user-option'>
                           <img
                             src={require('../../assets/imgs/trending/trending-user3.jpg')}
                             alt='Images'
@@ -188,7 +188,7 @@ const TrendingArea = ({ bg }) => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Walking on Air</a>
+                        <a href={() => false}>Walking on Air</a>
                       </Link>
                     </h3>
                     <span>
@@ -200,7 +200,7 @@ const TrendingArea = ({ bg }) => {
                 <div className='trending-item'>
                   <div className='trending-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-img4.jpg')}
                           alt='Images'
@@ -209,7 +209,7 @@ const TrendingArea = ({ bg }) => {
                     </Link>
                     <div className='trending-user'>
                       <Link to='/author-profile'>
-                        <a className='trending-user-option'>
+                        <a href={() => false} className='trending-user-option'>
                           <img
                             src={require('../../assets/imgs/trending/trending-user4.jpg')}
                             alt='Images'
@@ -233,7 +233,7 @@ const TrendingArea = ({ bg }) => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>Tranquility (Modal)</a>
+                        <a href={() => false}>Tranquility (Modal)</a>
                       </Link>
                     </h3>
                     <span>
@@ -245,7 +245,7 @@ const TrendingArea = ({ bg }) => {
                 <div className='trending-item'>
                   <div className='trending-img'>
                     <Link to='/item-details'>
-                      <a>
+                      <a href={() => false}>
                         <img
                           src={require('../../assets/imgs/trending/trending-img5.jpg')}
                           alt='Images'
@@ -254,7 +254,7 @@ const TrendingArea = ({ bg }) => {
                     </Link>
                     <div className='trending-user'>
                       <Link to='/author-profile'>
-                        <a className='trending-user-option'>
+                        <a href={() => false} className='trending-user-option'>
                           <img
                             src={require('../../assets/imgs/trending/trending-user5.jpg')}
                             alt='Images'
@@ -278,7 +278,7 @@ const TrendingArea = ({ bg }) => {
                   <div className='content'>
                     <h3>
                       <Link to='/item-details'>
-                        <a>To Infinity</a>
+                        <a href={() => false}>To Infinity</a>
                       </Link>
                     </h3>
                     <span>

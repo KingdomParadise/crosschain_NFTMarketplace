@@ -66,20 +66,20 @@ const FeaturedArea = ({ title, pagination }) => {
                 <ul className='tabs'>
                   <TabList>
                     <Tab>
-                      <a>All</a>
+                      <a href={() => false}>All</a>
                     </Tab>
                     <Tab>
-                      <a>Art</a>
+                      <a href={() => false}>Art</a>
                     </Tab>
 
                     <Tab>
-                      <a>Virtual Worlds</a>
+                      <a href={() => false}>Virtual Worlds</a>
                     </Tab>
                     <Tab>
-                      <a>Collectibles</a>
+                      <a href={() => false}>Collectibles</a>
                     </Tab>
                     <Tab>
-                      <a>Music</a>
+                      <a href={() => false}>Music</a>
                     </Tab>
                   </TabList>
                 </ul>
@@ -93,16 +93,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img1.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img1.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user1.jpg')}
                                     alt='Images'
@@ -128,7 +128,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Industrial Revolution</a>
+                                <a href={() => false}>Industrial Revolution</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -163,16 +163,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img2.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img2.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user2.jpg')}
                                     alt='Images'
@@ -198,7 +198,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Love In The Air</a>
+                                <a href={() => false}>Love In The Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -234,16 +234,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img3.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img3.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user3.jpg')}
                                     alt='Images'
@@ -263,7 +263,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Become One With Nature</a>
+                                <a href={() => false}>Become One With Nature</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -299,16 +299,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img4.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img4.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user4.jpg')}
                                     alt='Images'
@@ -334,7 +334,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Twilight Fracture City</a>
+                                <a href={() => false}>Twilight Fracture City</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -370,16 +370,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/author-profile'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img5.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img5.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user5.jpg')}
                                     alt='Images'
@@ -399,7 +399,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Walking On Air</a>
+                                <a href={() => false}>Walking On Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -435,16 +435,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/author-profile'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img6.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img6.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user6.jpg')}
                                     alt='Images'
@@ -464,7 +464,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Supper Nuemorphism</a>
+                                <a href={() => false}>Supper Nuemorphism</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -500,16 +500,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img7.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img7.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user7.jpg')}
                                     alt='Images'
@@ -535,7 +535,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Dark-light Angel</a>
+                                <a href={() => false}>Dark-light Angel</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -571,16 +571,16 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
-                                  src={require('../../assets/imgs/featured/featured-img8.jpg')}
+                                  src={require('../../assets/imgs/trending/trending-img8.png')}
                                   alt='Images'
                                 />
                               </a>
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user8.jpg')}
                                     alt='Images'
@@ -600,7 +600,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Exe Dream Hight</a>
+                                <a href={() => false}>Exe Dream Hight</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -642,7 +642,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img5.jpg')}
                                   alt='Images'
@@ -651,7 +651,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user5.jpg')}
                                     alt='Images'
@@ -671,7 +671,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Walking On Air</a>
+                                <a href={() => false}>Walking On Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -707,7 +707,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/author-profile'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img6.jpg')}
                                   alt='Images'
@@ -716,7 +716,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user6.jpg')}
                                     alt='Images'
@@ -736,7 +736,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Supper Nuemorphism</a>
+                                <a href={() => false}>Supper Nuemorphism</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -772,7 +772,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img7.jpg')}
                                   alt='Images'
@@ -781,7 +781,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user7.jpg')}
                                     alt='Images'
@@ -801,7 +801,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Dark-light Angel</a>
+                                <a href={() => false}>Dark-light Angel</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -837,7 +837,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img8.jpg')}
                                   alt='Images'
@@ -846,7 +846,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user8.jpg')}
                                     alt='Images'
@@ -866,7 +866,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Exe Dream Hight</a>
+                                <a href={() => false}>Exe Dream Hight</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -902,7 +902,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img1.jpg')}
                                   alt='Images'
@@ -911,7 +911,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user1.jpg')}
                                     alt='Images'
@@ -931,7 +931,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Industrial Revolution</a>
+                                <a href={() => false}>Industrial Revolution</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -967,7 +967,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img2.jpg')}
                                   alt='Images'
@@ -976,7 +976,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             </Link>
                             <div className='featured-user'>
                               <Link to='/author-profile'>
-                                <a className='featured-user-option'>
+                                <a href={() => false} className='featured-user-option'>
                                   <img
                                     src={require('../../assets/imgs/featured/featured-user2.jpg')}
                                     alt='Images'
@@ -996,7 +996,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Love In The Air</a>
+                                <a href={() => false}>Love In The Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1032,7 +1032,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img3.jpg')}
                                   alt='Images'
@@ -1042,6 +1042,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false} 
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1063,7 +1064,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Become One With Nature
                                 </a>
                               </Link>
@@ -1101,7 +1102,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img4.jpg')}
                                   alt='Images'
@@ -1111,6 +1112,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1132,7 +1134,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Twilight Fracture City
                                 </a>
                               </Link>
@@ -1176,7 +1178,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                           <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img3.jpg')}
                                   alt='Images'
@@ -1186,6 +1188,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1207,7 +1210,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Become One With Nature
                                 </a>
                               </Link>
@@ -1245,7 +1248,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img4.jpg')}
                                   alt='Images'
@@ -1255,6 +1258,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1276,7 +1280,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Twilight Fracture City
                                 </a>
                               </Link>
@@ -1314,7 +1318,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img5.jpg')}
                                   alt='Images'
@@ -1324,6 +1328,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1345,7 +1350,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Walking On Air</a>
+                                <a href={() => false}>Walking On Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1381,7 +1386,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img6.jpg')}
                                   alt='Images'
@@ -1391,6 +1396,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1412,7 +1418,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Supper Nuemorphism
                                 </a>
                               </Link>
@@ -1450,7 +1456,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img7.jpg')}
                                   alt='Images'
@@ -1460,6 +1466,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1481,7 +1488,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Dark-light Angel</a>
+                                <a href={() => false}>Dark-light Angel</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1517,7 +1524,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img8.jpg')}
                                   alt='Images'
@@ -1527,6 +1534,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1548,7 +1556,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Exe Dream Hight</a>
+                                <a href={() => false}>Exe Dream Hight</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1584,7 +1592,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img1.jpg')}
                                   alt='Images'
@@ -1594,6 +1602,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1615,7 +1624,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Industrial Revolution
                                 </a>
                               </Link>
@@ -1653,7 +1662,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img2.jpg')}
                                   alt='Images'
@@ -1663,6 +1672,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1684,7 +1694,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Love In The Air</a>
+                                <a href={() => false}>Love In The Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1726,7 +1736,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img5.jpg')}
                                   alt='Images'
@@ -1736,6 +1746,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1757,7 +1768,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Walking On Air</a>
+                                <a href={() => false}>Walking On Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1793,7 +1804,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                           <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img6.jpg')}
                                   alt='Images'
@@ -1803,6 +1814,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1824,7 +1836,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Supper Nuemorphism
                                 </a>
                               </Link>
@@ -1862,7 +1874,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img7.jpg')}
                                   alt='Images'
@@ -1872,6 +1884,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1893,7 +1906,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Dark-light Angel</a>
+                                <a href={() => false}>Dark-light Angel</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1929,7 +1942,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img8.jpg')}
                                   alt='Images'
@@ -1939,6 +1952,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -1960,7 +1974,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Exe Dream Hight</a>
+                                <a href={() => false}>Exe Dream Hight</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -1996,7 +2010,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img1.jpg')}
                                   alt='Images'
@@ -2006,6 +2020,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2027,7 +2042,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Industrial Revolution
                                 </a>
                               </Link>
@@ -2065,7 +2080,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img2.jpg')}
                                   alt='Images'
@@ -2075,6 +2090,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2096,7 +2112,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Love In The Air</a>
+                                <a href={() => false}>Love In The Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -2132,7 +2148,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img3.jpg')}
                                   alt='Images'
@@ -2142,6 +2158,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2163,7 +2180,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Become One With Nature
                                 </a>
                               </Link>
@@ -2201,7 +2218,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img4.jpg')}
                                   alt='Images'
@@ -2211,6 +2228,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2232,7 +2250,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Twilight Fracture City
                                 </a>
                               </Link>
@@ -2276,7 +2294,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img3.jpg')}
                                   alt='Images'
@@ -2286,6 +2304,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2307,7 +2326,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Become One With Nature
                                 </a>
                               </Link>
@@ -2345,7 +2364,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img4.jpg')}
                                   alt='Images'
@@ -2355,6 +2374,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2376,7 +2396,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Twilight Fracture City
                                 </a>
                               </Link>
@@ -2414,7 +2434,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img5.jpg')}
                                   alt='Images'
@@ -2424,6 +2444,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2445,7 +2466,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Walking On Air</a>
+                                <a href={() => false}>Walking On Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -2481,7 +2502,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img6.jpg')}
                                   alt='Images'
@@ -2491,6 +2512,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2512,7 +2534,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Supper Nuemorphism
                                 </a>
                               </Link>
@@ -2550,7 +2572,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img7.jpg')}
                                   alt='Images'
@@ -2560,6 +2582,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2581,7 +2604,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Dark-light Angel</a>
+                                <a href={() => false}>Dark-light Angel</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -2617,7 +2640,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img8.jpg')}
                                   alt='Images'
@@ -2627,6 +2650,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2648,7 +2672,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Exe Dream Hight</a>
+                                <a href={() => false}>Exe Dream Hight</a>
                               </Link>
                             </h3>
                             <div className='content-in'>
@@ -2684,7 +2708,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img1.jpg')}
                                   alt='Images'
@@ -2694,6 +2718,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2715,7 +2740,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>
+                                <a href={() => false}>
                                   Industrial Revolution
                                 </a>
                               </Link>
@@ -2753,7 +2778,7 @@ const FeaturedArea = ({ title, pagination }) => {
                         <div className='featured-item'>
                           <div className='featured-item-img'>
                             <Link to='/item-details'>
-                              <a>
+                              <a href={() => false}>
                                 <img
                                   src={require('../../assets/imgs/featured/featured-img2.jpg')}
                                   alt='Images'
@@ -2763,6 +2788,7 @@ const FeaturedArea = ({ title, pagination }) => {
                             <div className='featured-user'>
                               <Link to='/author-profile'>
                                 <a
+                                  href={() => false}
                                   className='featured-user-option'
                                 >
                                   <img
@@ -2784,7 +2810,7 @@ const FeaturedArea = ({ title, pagination }) => {
                           <div className='content'>
                             <h3>
                               <Link to='/author-profile'>
-                                <a>Love In The Air</a>
+                                <a href={() => false}>Love In The Air</a>
                               </Link>
                             </h3>
                             <div className='content-in'>

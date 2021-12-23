@@ -58,7 +58,7 @@ const AuctionArea = () => {
 							<div className="auction-card">
 								<div className="auction-card-img">
 									<Link to="/auction">
-										<a>
+										<a href={() => false}>
 											<img
 												src={require('../../assets/imgs/auctions/auctions-style1.jpg')}
 												alt="Images"
@@ -67,7 +67,7 @@ const AuctionArea = () => {
 									</Link>
 									<div className="auction-card-user">
 										<Link to="/author-profile">
-											<a className="auction-card-user-option">
+											<a className="auction-card-user-option" href={() => false}>
 												<img
 													src={require('../../assets/imgs/auctions/auctions-user1.jpg')}
 													alt="Images"
@@ -94,7 +94,7 @@ const AuctionArea = () => {
 									<h3>
 										{" "}
 										<Link to="/auction">
-											<a>To Infinity And Beyond</a>
+											<a href={() => false}>To Infinity And Beyond</a>
 										</Link>
 									</h3>
 									<p>
@@ -111,7 +111,7 @@ const AuctionArea = () => {
 										</div>
 									</div>
 									<Link to="/auction">
-										<a className="place-btn">Place Bid</a>
+										<a className="place-btn" href={() => false}>Place Bid</a>
 									</Link>
 								</div>
 							</div>
@@ -121,7 +121,7 @@ const AuctionArea = () => {
 							<div className="auction-card">
 								<div className="auction-card-img">
 									<Link to="/auction">
-										<a>
+										<a href={() => false}>
 											<img
 												src={require('../../assets/imgs/auctions/auctions-style2.jpg')}
 												alt="Images"
@@ -130,7 +130,7 @@ const AuctionArea = () => {
 									</Link>
 									<div className="auction-card-user">
 										<Link to="/author-profile">
-											<a className="auction-card-user-option">
+											<a className="auction-card-user-option" href={() => false}>
 												<img
 													src={require('../../assets/imgs/auctions/auctions-user2.jpg')}
 													alt="Images"
@@ -157,7 +157,7 @@ const AuctionArea = () => {
 									<h3>
 										{" "}
 										<Link to="/auction">
-											<a>Walking On Air</a>
+											<a href={() => false}>Walking On Air</a>
 										</Link>
 									</h3>
 									<p>
@@ -174,7 +174,7 @@ const AuctionArea = () => {
 										</div>
 									</div>
 									<Link to="/add-wallet">
-										<a className="place-btn">Place Bid</a>
+										<a className="place-btn" href={() => false}>Place Bid</a>
 									</Link>
 								</div>
 							</div>
@@ -184,7 +184,7 @@ const AuctionArea = () => {
 							<div className="auction-card">
 								<div className="auction-card-img">
 									<Link to="/auction">
-										<a>
+										<a href={() => false}>
 											<img
 												src={require('../../assets/imgs/auctions/auctions-style3.jpg')}
 												alt="Images"
@@ -193,7 +193,7 @@ const AuctionArea = () => {
 									</Link>
 									<div className="auction-card-user">
 										<Link to="/author-profile">
-											<a className="auction-card-user-option">
+											<a className="auction-card-user-option" href={() => false}>
 												<img
 													src={require('../../assets/imgs/auctions/auctions-user3.jpg')}
 													alt="Images"
@@ -220,7 +220,7 @@ const AuctionArea = () => {
 									<h3>
 										{" "}
 										<Link to="/auction">
-											<a>Industrial Revolution</a>
+											<a href={() => false}>Industrial Revolution</a>
 										</Link>
 									</h3>
 									<p>
@@ -237,7 +237,7 @@ const AuctionArea = () => {
 										</div>
 									</div>
 									<Link to="/add-wallet">
-										<a className="place-btn">Place Bid</a>
+										<a className="place-btn" href={() => false}>Place Bid</a>
 									</Link>
 								</div>
 							</div>
@@ -247,7 +247,7 @@ const AuctionArea = () => {
 							<div className="auction-card">
 								<div className="auction-card-img">
 									<Link to="/auction">
-										<a>
+										<a href={() => false}>
 											<img
 												src={require('../../assets/imgs/auctions/auctions-style4.jpg')}
 												alt="Images"
@@ -256,7 +256,7 @@ const AuctionArea = () => {
 									</Link>
 									<div className="auction-card-user">
 										<Link to="/author-profile">
-											<a className="auction-card-user-option">
+											<a className="auction-card-user-option" href={() => false}>
 												<img
 													src={require('../../assets/imgs/auctions/auctions-user4.jpg')}
 													alt="Images"
@@ -283,7 +283,7 @@ const AuctionArea = () => {
 									<h3>
 										{" "}
 										<Link to="/auction">
-											<a>Become On Nature</a>
+											<a href={() => false}>Become On Nature</a>
 										</Link>
 									</h3>
 									<p>
@@ -300,7 +300,7 @@ const AuctionArea = () => {
 										</div>
 									</div>
 									<Link to="/add-wallet">
-										<a className="place-btn">Place Bid</a>
+										<a className="place-btn" href={() => false}>Place Bid</a>
 									</Link>
 								</div>
 							</div>
@@ -310,7 +310,7 @@ const AuctionArea = () => {
 							<div className="auction-card">
 								<div className="auction-card-img">
 									<Link to="/auction">
-										<a>
+										<a href={() => false}>
 											<img
 												src={require('../../assets/imgs/auctions/auctions-style5.jpg')}
 												alt="Images"
@@ -319,7 +319,7 @@ const AuctionArea = () => {
 									</Link>
 									<div className="auction-card-user">
 										<Link to="/author-profile">
-											<a className="auction-card-user-option">
+											<a className="auction-card-user-option" href={() => false}>
 												<img
 													src={require('../../assets/imgs/auctions/auctions-user5.jpg')}
 													alt="Images"
@@ -346,7 +346,7 @@ const AuctionArea = () => {
 									<h3>
 										{" "}
 										<Link to="/auction">
-											<a>Flowers In Concrete</a>
+											<a href={() => false}>Flowers In Concrete</a>
 										</Link>
 									</h3>
 									<p>
@@ -363,7 +363,7 @@ const AuctionArea = () => {
 										</div>
 									</div>
 									<Link to="/add-wallet">
-										<a className="place-btn">Place Bid</a>
+										<a className="place-btn" href={() => false}>Place Bid</a>
 									</Link>
 								</div>
 							</div>
@@ -373,7 +373,7 @@ const AuctionArea = () => {
 							<div className="auction-card">
 								<div className="auction-card-img">
 									<Link to="/auction">
-										<a>
+										<a href={() => false}>
 											<img
 												src={require('../../assets/imgs/auctions/auctions-style6.jpg')}
 												alt="Images"
@@ -382,7 +382,7 @@ const AuctionArea = () => {
 									</Link>
 									<div className="auction-card-user">
 										<Link to="/author-profile">
-											<a className="auction-card-user-option">
+											<a className="auction-card-user-option" href={() => false}>
 												<img
 													src={require('../../assets/imgs/auctions/auctions-user6.jpg')}
 													alt="Images"
@@ -409,7 +409,7 @@ const AuctionArea = () => {
 									<h3>
 										{" "}
 										<Link to="/auction">
-											<a>Darklight Angel</a>
+											<a href={() => false}>Darklight Angel</a>
 										</Link>
 									</h3>
 									<p>
@@ -426,7 +426,7 @@ const AuctionArea = () => {
 										</div>
 									</div>
 									<Link to="/add-wallet">
-										<a className="place-btn">Place Bid</a>
+										<a className="place-btn" href={() => false}>Place Bid</a>
 									</Link>
 								</div>
 							</div>
