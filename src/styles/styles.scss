@@ -1762,7 +1762,7 @@ Trending Area
 }
 .trending-item {
     margin-bottom: 30px;
-    background-color: var(--whiteColor);
+    background-color: #20252D;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
     border-radius: 15px;
 
@@ -1865,14 +1865,14 @@ Trending Area
     .content {
         text-align: center;
         padding: 20px;
-        background-color: var(--whiteColor);
+        background-color: #20252D;
         border-radius: 0 0 5px 5px;
 
         h3 {
             margin-bottom: 7px;
 
             a {
-                color: var(--titleColor);
+                color: #ffffff;
             }
         }
         span {
@@ -2976,11 +2976,12 @@ Top Seller Area
         h3 {
             margin-bottom: 7px;
             a {
-                color: var(--titleColor);
+                color: #ffffff;
             }
         }
         span {
             font-size: 14px;
+            color: #777E89;
         }
     }
     &:hover {
@@ -3133,7 +3134,7 @@ Auctions Area
 .auction-item {
     margin-bottom: 30px;
     border-radius: 5px;
-    background-color: var(--whiteColor);
+    background-color: #20252d;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
     transition: var(--transition);
 
@@ -3242,7 +3243,7 @@ Auctions Area
                 margin-bottom: 3px;
 
                 a {
-                    color: var(--titleColor);
+                    color: #ffffff;
                     transition: var(--transition);
                 }
             }
@@ -3625,7 +3626,7 @@ Auctions Area End
 Featured Area
 ====================================*/
 .featured-area  {
-    background-color: #F6F6F6;
+    background-color: #303742;
 }
 .featured-tab-area {
     .tabs {
@@ -3643,9 +3644,9 @@ Featured Area
             a {
                 display: inline-block;
                 position: relative;
-                color: var(--titleColor);
+                color: #ffffff;
                 padding: 13px 26px 10px;
-                background-color: #E5E5E5;
+                background-color: #20252D;
                 border-radius: 5px;
                 cursor: pointer;
             }
@@ -3768,12 +3769,13 @@ Featured Area
     }
     .content {
         padding: 20px 15px;
+        background: #20252D;
 
         h3 {
             margin-bottom: 10px;
 
             a {
-                color: var(--titleColor);
+                color: #fff;
                 transition: var(--transition);
             }
         }
@@ -3787,12 +3789,12 @@ Featured Area
 
             span {
                 font-size: 15px;
-                color: var(--titleColor);
+                color: #777E89;
                 font-weight: 500;
             }
             h4 {
                 font-size: 15px;
-                color: var(--titleColor);
+                color: #777E89;
                 font-weight: 500;
                 margin-bottom: 0;
             }
@@ -3837,7 +3839,7 @@ Featured Area
             }
             p {
                 font-size: 15px;
-                color: var(--bodyColor);
+                color: #fe2424;
 
                 i {
                     font-size: 17px;
@@ -4329,7 +4331,7 @@ Create Area
     h3 {
         margin-bottom: 10px;
         a {
-            color: var(--titleColor);
+            color: #fff !important;
             transition: var(--transition);
         }
     }
@@ -4415,6 +4417,7 @@ Author Area
     .content {
         padding: 0 20px 25px;
         position: relative;
+        background: #20252D;
         .content-follow {
             display: inline-block;
             padding: 10px 14px 8px;
@@ -4521,12 +4524,12 @@ Author Area
         h3 {
             margin-bottom: 7px;
             a {
-                color: var(--titleColor);
+                color: #ffffff;
                 transition: var(--transition);
             }
         }
         span {
-            color: var(--pinkColor);
+            color: #777E89;
             margin-bottom: 15px;
             display: block;
         }
@@ -4575,7 +4578,7 @@ Author Area
         
         .author-content {
             padding: 10px 15px;
-            background-color: #E5E5E5;
+            background-color: #303742;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -4591,6 +4594,7 @@ Author Area
                     font-size: 22px;
                     margin-bottom: 0;
                     font-weight: 600;
+                    color: #ffffff;
                 }
             }
             .content-right {
@@ -5365,6 +5369,7 @@ Collections Area
     .content {
         padding: 0 20px 20px;
         text-align: center;
+        background: #20252D;
         .collections-user {
             position: relative;
             margin-top: -30px;
@@ -5390,7 +5395,7 @@ Collections Area
         h3 {
             margin-bottom: 7px;
             a {
-                color: var(--titleColor);
+                color:#EA1E62;
                 transition: var(--transition);
             }
         }

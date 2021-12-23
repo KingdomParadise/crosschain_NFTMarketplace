@@ -103,7 +103,7 @@ const TrendingArea = () => {
                         <a>Les Immortal's</a>
                       </Link>
                     </h3>
-                    <span>
+                    <span className="text-danger">
                       <i className='ri-heart-line'></i> 340
                     </span>
                   </div>
@@ -149,7 +149,7 @@ const TrendingArea = () => {
                         <a>Industrial Revolution</a>
                       </Link>
                     </h3>
-                    <span>
+                    <span className="text-danger">
                       <i className='ri-heart-line'></i> 365
                     </span>
                   </div>
@@ -195,7 +195,7 @@ const TrendingArea = () => {
                         <a>Walking on Air</a>
                       </Link>
                     </h3>
-                    <span>
+                    <span className="text-danger">
                       <i className='ri-heart-line'></i> 190
                     </span>
                   </div>
@@ -242,7 +242,7 @@ const TrendingArea = () => {
                         <a>Tranquility (Modal)</a>
                       </Link>
                     </h3>
-                    <span>
+                    <span className="text-danger">
                       <i className='ri-heart-line'></i> 204
                     </span>
                   </div>
@@ -288,7 +288,7 @@ const TrendingArea = () => {
                         <a>To Infinity</a>
                       </Link>
                     </h3>
-                    <span>
+                    <span className="text-danger">
                       <i className='ri-heart-line'></i> 204
                     </span>
                   </div>
