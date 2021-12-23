@@ -166,7 +166,7 @@ Default Btn CSS
     position: relative;
     border-radius: 8px;
     z-index: 0;
-    background: #03A9F4;
+    background-color: #EA1E62;
     overflow: hidden;
     white-space: nowrap;
     border: 0;
@@ -1460,10 +1460,16 @@ Inner Banner Area
     background-position: center center;
     background-repeat: no-repeat;
     .inner-title {
-        padding-top: 140px;
-        padding-bottom: 140px;
+        margin: 0px -15px;
+        padding: 50px 30px 60px 30px;
         position: relative;
         z-index: 1;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        position: relative;
+        z-index: 1;
+        background: linear-gradient(
+        90deg, #3F51B5 0%, #941C6B 100%);
         h3 {
             font-size: 45px;
             color: var(--whiteColor);
@@ -1641,7 +1647,7 @@ Inner Banner Area
         list-style-type: none;
         margin: 0;
         padding: 7px 12px;
-        background-color: var(--pinkColor);
+        background-color: #EA1E62;
         border-radius: 25px;
         display: inline-block;
         li {
@@ -1675,7 +1681,7 @@ Inner Banner Area
     } 
 }
 .involved-area-two {
-    background-color: #0A1831;
+    background: linear-gradient(180deg, #1C2028 0%, #2E3540 100%);
     .section-title {
         h2 {
             color: var(--whiteColor);
@@ -3947,12 +3953,12 @@ Featured Area
     }
     .content {
         padding: 20px 15px 25px;
-
+        background: #20252D;
         h3 {
             margin-bottom: 10px;
 
             a {
-                color: var(--titleColor);
+                color: #ffffff;
                 transition: var(--transition);
             }
         }
@@ -3962,20 +3968,20 @@ Featured Area
             justify-content: space-between;
             padding: 12px 12px 10px;
             border-radius: 3px;
-            border: 1px solid var(--lightblueColor);
+            border: 1px solid #313742;
             margin-bottom: 15px;
 
             .featured-card-left {
                 span {
                     font-size: 16px;
-                    color: var(--titleColor);
+                    color: #777E89;
                     font-weight: 500;
                     display: block;
                     margin-bottom: 10px;
                 }
                 h4 {
                     font-size: 16px;
-                    color: var(--titleColor);
+                    color: #777E89;
                     font-weight: 500;
                     margin-bottom: 0;
                 }
@@ -4003,7 +4009,7 @@ Featured Area
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: #E5E5E5;
+            background-color: #303742;
             padding: 7px 15px 7px 10px;
             display: inline-block;
             border-radius: 50px;
@@ -4017,7 +4023,7 @@ Featured Area
             }
             span {
                 font-size: 14px;
-                color: var(--titleColor);
+                color: #fff;
                 font-weight: 600;
                 transition: var(--transition);
                 line-height: 1;
@@ -4863,6 +4869,8 @@ Author Area
     padding: 30px 25px;
     position: relative;
     margin-top: -140px;
+   z-index: 9;
+   background:#20252D;
     .author-user {
         margin-bottom: 20px;
         position: relative;
@@ -6451,8 +6459,8 @@ Pagination Area
         width: 40px;
         height: 40px;
         line-height: 43px;
-        color: var(--titleColor);
-        background-color: var(--whiteColor);
+        color: #ffffff;
+    background-color: #303742;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
         text-align: center;
         display: inline-block;
