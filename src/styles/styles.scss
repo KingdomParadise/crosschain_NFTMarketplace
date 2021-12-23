@@ -6659,3 +6659,26 @@ Animation CSS
 .global-pointer{
     cursor: pointer;
 }
+
+
+.lion_icon img{
+    height: 33px;
+    padding-right:5px;
+}
+.lion_icon{
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+    color:#777E89;
+}
+.social_icon {
+    padding: 3px 7px;
+    border-radius: 50%;
+    background: #777E89;
+    color: #fff;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    margin-right: 5px;
+
+}

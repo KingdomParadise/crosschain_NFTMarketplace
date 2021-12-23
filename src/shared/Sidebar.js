@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Collapse, Dropdown } from 'react-bootstrap';
 import { Trans } from 'react-i18next';
+import lion1_icon from '../assets/images/lion_icon.png';
+import lion2_icon from '../assets/images/lion2_icon.png';
+import en from '../assets/images/envelop.png';
+import tw from '../assets/images/twitter.png';
+import ms from '../assets/images/ms.png';
+import www from '../assets/images/www.png';
 
 class Sidebar extends Component {
 
@@ -61,6 +67,7 @@ class Sidebar extends Component {
           <a className="sidebar-brand brand-logo" href="index.html"><img src={require('../assets/images/logo-mini.svg').default} alt="logo" /></a>
           {/*<a className="sidebar-brand brand-logo-mini" href="index.html"><img src={require('../assets/images/logo-mini.svg').default} alt="logo" /></a>*/}
         </div>
+        <div className="d-flex flex-column justify-content-between h-100">
         <ul className="nav">
           <li className={ this.isPathActive('/dashboard') ? 'nav-item menu-items active' : 'nav-item menu-items' }>
             <Link className="nav-link active" to="/dashboard">
@@ -103,6 +110,18 @@ class Sidebar extends Component {
             </Collapse>
           </li>
         </ul>
+       <div className="p-3">
+          <div className="d-flex justify-content-between mb-3">
+              <div className="lion_icon"><img src={lion1_icon} /> $0.020</div>
+              <div className="lion_icon"><img src={lion2_icon} />  $0.723</div>
+          </div>
+          <div className="d-flex  justify-content-center">
+              <div className="lion_icon pe-3"><span class=" mdi mdi-web pe-1"></span> EN</div>
+              <div className="social_icon "><span class=" mdi mdi-send "></span> </div>
+              <div className="social_icon "><span class=" mdi mdi-twitter"></span> </div>
+          </div>
+       </div>
+       </div>
       </nav>
     );
   }
