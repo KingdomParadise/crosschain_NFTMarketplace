@@ -1001,12 +1001,15 @@ Main Banner Area
                     color: var(--whiteColor);
                     margin-bottom: 7px;
                     display: block;
-                    font-weight: 400;
+                    font-weight: 600;
+                    line-height: 1.4;
                 }
                 h3 {
                     font-size: 20px;
                     color: var(--whiteColor);
                     margin-bottom: 0;
+                    font-weight: 600;
+                    line-height: 1.6;
                 }
             }
             .card-right {
@@ -1015,7 +1018,7 @@ Main Banner Area
                     color: var(--whiteColor);
                     margin-bottom: 7px;
                     display: block;
-                    font-weight: 400;
+                    font-weight: 600;
                 }
                 .timer-text {
                     font-size: 20px;
