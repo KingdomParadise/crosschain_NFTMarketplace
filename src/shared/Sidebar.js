@@ -60,7 +60,7 @@ class Sidebar extends Component {
           <button className="navbar-toggler align-self-center" type="button" onClick={ () => document.body.classList.toggle('sidebar-icon-only') }>
             <span className="mdi mdi-menu"></span>
           </button>
-          <a className="sidebar-brand brand-logo" href="index.html"><img src={require('../assets/images/logo-mini.svg').default} alt="logo" /></a>
+          <Link className="sidebar-brand brand-logo" to={'/'}><img src={require('../assets/images/logo-mini.svg').default} alt="logo" /></Link>
           {/*<a className="sidebar-brand brand-logo-mini" href="index.html"><img src={require('../assets/images/logo-mini.svg').default} alt="logo" /></a>*/}
         </div>
         <div className="d-flex flex-column justify-content-between h-100">
@@ -112,9 +112,9 @@ class Sidebar extends Component {
               <div className="lion_icon"><img src={lion2_icon} alt=""/>  $0.723</div>
           </div>
           <div className="d-flex  justify-content-center">
-              <div className="lion_icon pe-3"><span class=" mdi mdi-web pe-1"></span> EN</div>
-              <div className="social_icon "><span class=" mdi mdi-send "></span> </div>
-              <div className="social_icon "><span class=" mdi mdi-twitter"></span> </div>
+              <div className="lion_icon pe-3"><span className=" mdi mdi-web pe-1"></span> EN</div>
+              <div className="social_icon "><span className=" mdi mdi-send "></span> </div>
+              <div className="social_icon "><span className=" mdi mdi-twitter"></span> </div>
               <div className="social_icon "><img src={require('../assets/imgs/social.png')} alt='' /></div>
               <div className="social_icon "><img src={require('../assets/imgs/website.png')} alt='' /> </div>
           </div>
