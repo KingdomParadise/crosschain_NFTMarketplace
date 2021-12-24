@@ -46,7 +46,7 @@ const AuctionArea = () => {
   return (
     <>
       <div className='auctions-area-three pt-100 pb-70'>
-        <div className='container'>
+        <div className='container col-lg-10'>
           <div className='row align-items-center'>
             <div className='col-lg-8 col-md-6'>
               <div className='section-title'>

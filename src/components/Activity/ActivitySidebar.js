@@ -28,39 +28,25 @@ const ActivitySidebar = () => {
 					<h3 className="title">Categories</h3>
 					<ul>
 						<li>
-							<Link to="/categories">
-								<a href={() => false}>Art</a>
-							</Link>
+							<a href={() => false}>Art</a>
 						</li>
 						<li>
-							<Link to="/categories">
-								<a href={() => false}>Virtual Worlds</a>
-							</Link>
+							<a href={() => false}>Virtual Worlds</a>
 						</li>
 						<li>
-							<Link to="/categories">
-								<a href={() => false}>Collectibles</a>
-							</Link>
+							<a href={() => false}>Collectibles</a>
 						</li>
 						<li>
-							<Link to="/categories">
-								<a href={() => false}>Music</a>
-							</Link>
+							<a href={() => false}>Music</a>
 						</li>
 						<li>
-							<Link to="/categories">
-								<a href={() => false}>Games</a>
-							</Link>
+							<a href={() => false}>Games</a>
 						</li>
 						<li>
-							<Link to="/categories">
-								<a href={() => false}>Domains</a>
-							</Link>
+							<a href={() => false}>Domains</a>
 						</li>
 						<li>
-							<Link to="/categories">
-								<a href={() => false}>Memes</a>
-							</Link>
+							<a href={() => false}>Memes</a>
 						</li>
 					</ul>
 				</div>

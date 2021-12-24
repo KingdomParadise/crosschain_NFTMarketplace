@@ -7,13 +7,13 @@ const ItemDetailsArea = () => {
   return (
     <>
       <div className='item-details-area pt-100 pb-70'>
-        <div className='container'>
-          <div className='row'>
+        <div className='container row justify-content-md-center'>
+          <div className='row col-lg-10'>
             <div className='col-lg-7'>
               <div className='item-details-left-side pr-20'>
                 <div className='item-details-img'>
                   <img
-                    src={require('../../assets/imgs/Item-details/Item-details1.jpg')}
+                    src={require('../../assets/imgs/Item-details/Item-details1.png')}
                     alt='Images'
                   />
                   <span>

@@ -5,7 +5,7 @@ const CreateCollectionArea = () => {
   return (
     <>
       <div className='collection-widget-area pt-100 pb-70'>
-        <div className='container'>
+        <div className='container col-lg-10'>
           <div className='row'>
             <div className='col-lg-3'>
               <div className='author-profile-sidebar mr-20'>

@@ -6,7 +6,7 @@ const ActivityArea = () => {
   return (
     <>
       <div className='activity-area pt-100 pb-70'>
-        <div className='container'>
+        <div className='container col-lg-10'>
           <div className='section-title'>
             <h2>Activity</h2>
           </div>

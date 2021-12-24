@@ -34,7 +34,9 @@ Default CSS
     --whiteColor: #ffffff;
     --lSwapPink: #EA1E62;
     --lSwapGray: #777E89;
+    --lSwapDarkLight1: #20252D;
     --lSwapDarkLight2: #303742;
+    --lSwapDark: #15181E;
     --fontSize: 16px;
     --transition: .5s;
 }
@@ -1471,7 +1473,7 @@ Inner Banner Area
     background-repeat: no-repeat;
     .inner-title {
         margin: 0px -15px;
-        padding: 50px 30px 60px 30px;
+        padding: 50px 12px 60px 12px;
         position: relative;
         z-index: 1;
         padding-top: 50px;
@@ -1485,6 +1487,7 @@ Inner Banner Area
             color: var(--whiteColor);
             line-height: 1.2;
             margin-bottom: 15px;
+            font-weight: 600;
         }
         ul {
             list-style: none;
@@ -1526,43 +1529,69 @@ Inner Banner Area
     }
 }
 .inner-bg1 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner1.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner1.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg2 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner2.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner2.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg3 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner3.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner3.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg4 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner4.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner4.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg5 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner5.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner5.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg6 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner6.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner6.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg7 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner7.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner7.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg8 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner8.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner8.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg9 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner9.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner9.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg10 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner10.jpg);
+    // background-image: url(../assets/imgs/inner-banner/inner-banner10.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg11 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner11.jpg);
+    //background-image: url(../assets/imgs/inner-banner/inner-banner11.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg12 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner12.jpg);
+    //background-image: url(../assets/imgs/inner-banner/inner-banner12.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 .inner-bg13 {
-    background-image: url(../assets/imgs/inner-banner/inner-banner13.jpg);
+    //background-image: url(../assets/imgs/inner-banner/inner-banner13.jpg);
+    background: linear-gradient(
+90deg, #3F51B5 0%, #941C6B 100%);
 }
 
 .inner-shape {
@@ -1851,6 +1880,7 @@ Trending Area
             align-items: center;
             justify-content: space-between;
             padding: 15px 15px 12px;
+            backdrop-filter: blur(25px);
 
             &::before {
                 content: '';
@@ -1893,7 +1923,7 @@ Trending Area
         }
         span {
             font-size: 16px;
-            color: var(--bodyColor);
+            color: var(--pinkColor);
 
             i {
                 font-size: 18px;
@@ -2317,8 +2347,11 @@ Item Details Area
     padding: 35px 20px;
     background-color: #20252D;
     margin-bottom: 30px;
+    border-radius: 8px;
     h3 {
         margin-bottom: 20px;
+        color: var(--whiteColor);
+        font-weight: 600;
     }
     .item-details-into {
         height: 325px;
@@ -2354,7 +2387,7 @@ Item Details Area
             position: relative;
             margin-right: 20px;
             img {
-                border: 2px solid var(--pinkColor);
+                border: 2px solid var(--whiteColor);
                 border-radius: 10px;
             }
             i {
@@ -2375,13 +2408,14 @@ Item Details Area
             h3 {
                 font-size: 16px;
                 margin-bottom: 7px;
-                color: #666666;
+                color: var(--lSwapGray);
+                font-weight: 600;
                 b {
                     color: #fff;
                 }
             }
             span {
-                color: var(--pinkColor);
+                color: var(--whiteColor);
             }
         }
         .work-hours {
@@ -2390,7 +2424,7 @@ Item Details Area
             transform: translateY(-50%);
             right: 20px;
             font-size: 16px;
-            color: #666666;
+            color: var(--lSwapGray);
         }
     }
 }
@@ -2404,6 +2438,8 @@ Item Details Area
     h3 {
         margin-bottom: 15px;
         font-size: 16px;
+        color: var(--whiteColor);
+        font-weight: 600;
     }
     .content {
         display: flex;
@@ -2447,6 +2483,8 @@ Item Details Area
         h3 {
             margin-bottom: 0;
             font-size: 20px;
+            color: var(--whiteColor);
+            font-weight: 600;
         }
         p {
             margin-bottom: 0;
@@ -2513,6 +2551,8 @@ Item Details Area
     .content {
         h3 {
             margin-bottom: 5px;
+            color: var(--whiteColor);
+            font-weight: 600;
         }
         span {
             color: var(--bodyColor);
@@ -2527,19 +2567,19 @@ Item Details Area
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 15px;
+    border-radius: 8px;
     margin-bottom: 20px;
     .item-left {
         span {
             font-size: 14px;
-            color: var(--bodyColor);
+            color: var(--whiteColor);
             margin-bottom: 7px;
             display: block;
             font-weight: 400;
         }
         .timer-text {
             font-size: 20px;
-            color: var(--titleColor);
+            color: var(--lSwapGray);
             margin-bottom: 0;
             font-weight: 600;
             font-family: var(--bodyFonts);
@@ -2548,14 +2588,14 @@ Item Details Area
     .item-right {
         h3 {
             font-size: 14px;
-            color: var(--bodyColor);
+            color: var(--lSwapGray);
             margin-bottom: 7px;
             display: block;
             font-weight: 400;
         }
         .item-right-eth {
             font-size: 20px;
-            color: var(--titleColor);
+            color: var(--pinkColor);
             margin-bottom: 0;
             font-weight: 600;
             font-family: var(--bodyFonts);
@@ -2572,14 +2612,20 @@ Item Details Area
             width: 950px;
         }
     }
+    a {
+        width: 100%;
+    }
 }
 
 .item-details-user-area {
     padding: 35px 20px;
     background-color: #20252D;
     margin-bottom: 30px;
+    border-radius: 8px;
     h3 {
         margin-bottom: 20px;
+        color: var(--whiteColor);
+        font-weight: 600;
     }
     .item-details-user-into {
         height: 325px;
@@ -2614,7 +2660,7 @@ Item Details Area
             position: relative;
             margin-right: 20px;
             img {
-                border: 2px solid var(--pinkColor);
+                border: 2px solid var(--whiteColor);
                 border-radius: 10px;
                 max-width: 50px;
             }
@@ -2623,14 +2669,15 @@ Item Details Area
             h3 {
                 font-size: 16px;
                 margin-bottom: 7px;
-                color: #666666;
+                color: var(--lSwapGray);
                 b {
                     color: #fff;
                 }
             }
             span {
-                color: #666666;
+                color: var(--lSwapGray);
                 font-size: 16px;
+                font-weight: 600;
                 b {
                     color: #fff;
                 }
@@ -2642,14 +2689,14 @@ Item Details Area
             transform: translateY(-50%);
             right: 20px;
             font-size: 16px;
-            color: #666666;
+            color: var(--lSwapGray);
             h3 {
                 font-size: 16px;
                 margin-bottom: 7px;
                 color: #EA1E62;
             }
             span {
-                color: #666666;
+                color: var(--lSwapGray);
                 font-size: 16px;
             }
         }
@@ -2670,8 +2717,9 @@ Collection Form Area
 .collection-form {
     padding: 35px 25px;
     margin-bottom: 30px;
-    background-color: var(--whiteColor);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+    background-color: var(--lSwapDarkLight1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
     .form-group {
         margin-bottom: 20px;
         position: relative;
@@ -2679,7 +2727,7 @@ Collection Form Area
             margin-bottom: 20px;
             font-size: 20px;
             font-weight: 600;
-            color: var(--titleColor);
+            color: var(--whiteColor);
         }
         &.checkbox-option {
             position: relative;
@@ -2702,13 +2750,13 @@ Collection Form Area
         }
         .form-control {
             height: 50px;
-            color: var(--bodyColor);
+            color: var(--whiteColor);
             border: none;
-            background-color: #F8F8F8;
+            background-color: var(--lSwapDark);
             font-size: 15px;
             padding: 15px 20px;
             width: 100%;
-            border-radius: 30px;
+            border-radius: 8px;
             &:focus {
                 outline: none;
                 box-shadow: none;
@@ -2736,6 +2784,8 @@ Collection Form Area
     h3 {
         font-size: 20px;
         margin-bottom: 20px;
+        color: var(--whiteColor);
+        font-weight: 600;
     }
     .profileButton {
         position: relative;
@@ -2761,12 +2811,12 @@ Collection Form Area
             padding-right: 20px;
             width: 100%;
             cursor: pointer;
-            border-radius: 15px;
-            transition: var(--transition);
+            border-radius: 8px;
+            transition: var(--da);
             margin: 0;
-            color: var(--bodyColor);
+            color: var(--lSwapGray);
             border: none;
-            background-color: #F6F6F6;
+            background-color: var(--lSwapDark);
             &:hover {
                 border: 1px solid var(--pinkColor);
             }
@@ -2787,6 +2837,8 @@ Collection Form Area
     h3 {
         font-size: 20px;
         margin-bottom: 20px;
+        font-weight: 600;
+        color: var(--whiteColor);
     }
     .previewButton {
         position: relative;
@@ -2815,13 +2867,13 @@ Collection Form Area
             padding-top: 70px;
             width: 100%;
             cursor: pointer;
-            border-radius: 15px;
+            border-radius: 8px;
             transition: var(--transition);
             margin: 0;
-            color: var(--bodyColor);
+            color: var(--lSwapGray);
             font-size: 16px;
             border: none;
-            background-color: #F6F6F6;
+            background-color: var(--lSwapDark);
             &:hover {
                 border: 1px dashed var(--pinkColor);
             }
@@ -2837,6 +2889,8 @@ Collection Form Area
     h3 {
         font-size: 20px;
         margin-bottom: 20px;
+        font-weight: 600;
+        color: var(--whiteColor);
     }
     ul {
         list-style: none;
@@ -2847,12 +2901,12 @@ Collection Form Area
             padding: 12px 25px 9px;
             margin: 0 15px 10px 0;
             transition: 0.7s;
-            color: var(--lightblueColor);
-            font-weight: 600;
-            background-color: #F6F6F6;
-            border-radius: 15px;
+            color: var(--whiteColor);
+            font-weight: normal;
+            background-color: #303742;
+            border-radius: 8px;
             a {
-                color: var(--lightblueColor);
+                color: var(--whiteColor);
             }
             &:hover {
                 background-color: var(--lightblueColor);
@@ -2875,8 +2929,8 @@ Collection Form Area
             padding-left: 24px;
             cursor: pointer;
             display: block;
-            font-weight: 600;
-            color: var(--titleColor);
+            font-weight: normal;
+            color: var(--whiteColor);
             position: relative;
             margin-bottom: 15px;
             &::before {
@@ -2888,7 +2942,6 @@ Collection Form Area
                 height: 15px;
                 border: 1px solid #dddddd;
                 border-radius: 50%;
-                background: #ffffff;
             }
             &::after {
                 content: '';
@@ -2913,8 +2966,8 @@ Collection Form Area
             padding-left: 24px;
             cursor: pointer;
             display: block;
-            font-weight: 600;
-            color: #172541;
+            font-weight: normal;
+            color: var(--lSwapGray);
             position: relative;
             margin-bottom: 15px;
             &::before {
@@ -2924,9 +2977,8 @@ Collection Form Area
                 top: 4px;
                 width: 15px;
                 height: 15px;
-                border: 1px solid #dddddd;
+                border: 1px solid var(--lSwapGray);
                 border-radius: 50%;
-                background: #ffffff;
             }
             &::after {
                 content: '';
@@ -3018,12 +3070,12 @@ Top Seller Area End
 Activity Area
 ====================================*/
 .activity-card {
-    background-color: var(--whiteColor);
+    background-color: var(--lSwapDarkLight1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
     padding: 20px 20px;
     display: flex;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 14px;
     margin-bottom: 30px;
     position: relative;
     .activity-img {
@@ -3036,10 +3088,10 @@ Activity Area
     .activity-content {
         p {
             font-size: 15px;
-            color: var(--bodyFonts);
+            color: var(--lSwapGray);
             margin-bottom: 15px;
             i {
-                color: var(--lightblueColor);
+                color: var(--pinkColor);
                 font-size: 17px;
                 position: relative;
                 top: 3px;
@@ -3048,10 +3100,10 @@ Activity Area
         }
         span {
             font-size: 15px;
-            color: var(--bodyFonts);
+            color: var(--lSwapGray);
             margin-bottom: 0;
             i {
-                color: var(--lightblueColor);
+                color: var(--pinkColor);
                 font-size: 17px;
                 position: relative;
                 top: 3px;
@@ -3065,11 +3117,19 @@ Activity Area
         h3 {
             margin-bottom: 15px;
             transition: var(--transition);
+            color: var(--whiteColor);
+            font-weight: 600;
         }
         span {
             font-size: 15px;
-            color: var(--bodyFonts);
+            color: var(--lSwapGray);
             margin-bottom: 0;
+            b:nth-child(1) {
+                color: var(--whiteColor);
+            }
+            b:nth-child(2) {
+                color: var(--pinkColor);
+            }
         }
     }
     .activity-btn {
@@ -3084,8 +3144,8 @@ Activity Area
             border-radius: 50px;
             text-align: center;
             font-size: 16px;
-            background-color: rgba(#F14D5D,.15%);
-            color: var(--pinkColor);
+            background-color: var(--lSwapDarkLight2);
+            color: var(--lSwapGray);
             display: inline-block;
             transition: var(--transition);
         }
@@ -3449,7 +3509,7 @@ Auctions Area
                 span {
                     font-size: 14px;
                     color: var(--titleColor);
-                    font-weight: 600;
+                    font-weight: normal;
                     transition: var(--transition);
                     line-height: 1;
                     padding-top: 5px;
@@ -3487,7 +3547,7 @@ Auctions Area
             h3 {
                 font-size: 16px;
                 color: var(--whiteColor);
-                font-weight: 500;
+                font-weight: normal;
                 margin-bottom: 0;
             }
             .auction-timer {
@@ -3517,6 +3577,7 @@ Auctions Area
             a {
                 color: #fff;
                 transition: var(--transition);
+                font-weight: 600;
             }
         }
         p {
@@ -3559,7 +3620,7 @@ Auctions Area
             .card-right {
                 span {
                     font-size: 15px;
-                    color: var(--titleColor);
+                    color: var(--lSwapGray);
                     margin-bottom: 10px;
                     display: block;
                     font-weight: 400;
@@ -3567,7 +3628,7 @@ Auctions Area
                 }
                 h4 {
                     font-size: 20px;
-                    color: var(--titleColor);
+                    color: var(--whiteColor);
                     margin-bottom: 0;
                     font-weight: 600;
                     font-family: var(--bodyFonts);
@@ -3645,7 +3706,7 @@ Auctions Area End
 Featured Area
 ====================================*/
 .featured-area  {
-    background-color: #303742;
+    // background-color: #303742;
 }
 .featured-tab-area {
     .tabs {
@@ -3858,7 +3919,7 @@ Featured Area
             }
             p {
                 font-size: 15px;
-                color: #fe2424;
+                color: var(--pinkColor);
 
                 i {
                     font-size: 17px;
@@ -3939,10 +4000,9 @@ Featured Area
             display: inline-block;
             padding: 8px 22px 6px;
             font-size: 16px;
-            color: var(--bodyColor);
-            background-color: #E5E5E5;
-            border: 1px solid var(--whiteColor);
-            border-radius: 15px;
+            color: var(--pinkColor);
+            background-color: var(--whiteColor);
+            border-radius: 21px;
             margin-bottom: 0;
             transition: var(--transition);
 
@@ -3988,14 +4048,14 @@ Featured Area
                 span {
                     font-size: 16px;
                     color: #777E89;
-                    font-weight: 500;
+                    font-weight: normal;
                     display: block;
                     margin-bottom: 10px;
                 }
                 h4 {
                     font-size: 16px;
                     color: #777E89;
-                    font-weight: 500;
+                    font-weight: normal;
                     margin-bottom: 0;
                 }
             }
@@ -4037,7 +4097,7 @@ Featured Area
             span {
                 font-size: 14px;
                 color: #fff;
-                font-weight: 600;
+                font-weight: normal;
                 transition: var(--transition);
                 line-height: 1;
                 padding-top: 5px;
@@ -4382,7 +4442,7 @@ Create Area End
 Author Area
 ====================================*/
 .author-area-bg {
-    background-color: #0A1831;
+    // background-color: #0A1831;
 }
 .author-area-bg2 {
     background-image: url(../assets/imgs/author/author-bg.png);
@@ -4407,7 +4467,7 @@ Author Area
     }
 }
 .author-widget-bg {
-    background-color: var(--whiteColor);
+    // background-color: var(--whiteColor);
 }
 .author-area-shape {
     position: absolute;
@@ -4523,7 +4583,7 @@ Author Area
             margin-bottom: 20px;
             img {
                 border-radius: 5px;
-                border: 3px solid var(--pinkColor);
+                border: 3px solid var(--whiteColor);
                 max-width: 64px;
             }
             i {
@@ -4605,14 +4665,14 @@ Author Area
             .content-left {
                 span {
                     font-size: 14px;
-                    color: var(--bodyColor);
+                    color: var(--lSwapGray);
                     display: block;
                     margin-bottom: 5px;
                 }
                 h4 {
                     font-size: 22px;
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: normal;
                     color: #ffffff;
                 }
             }
@@ -4890,7 +4950,7 @@ Author Area
         max-width: 185px;
         img {
             border-radius: 5px;
-            border: 3px solid var(--pinkColor);
+            border: 3px solid var(--whiteColor);
             max-width: 180px;
         }
         i {
@@ -4910,12 +4970,12 @@ Author Area
     h3 {
         margin-bottom: 7px;
         a {
-            color: var(--lSwapGray);
+            color: var(--whiteColor);
             transition: var(--transition);
         }
     }
     span {
-        color: var(--pinkColor);
+        color: var(--lSwapGray);
         margin-bottom: 15px;
         display: block;
     }
@@ -4926,7 +4986,7 @@ Author Area
         color: var(--transition);
         margin-bottom: 15px;
         i {
-            color: var(--lightblueColor);
+            color: var(--pinkColor);
             position: relative;
             margin-left: 5px;
             top: 3px;
@@ -4949,7 +5009,7 @@ Author Area
             h4 {
                 font-size: 22px;
                 margin-bottom: 0;
-                font-weight: 600;
+                font-weight: normal;
                 color: var(--whiteColor);
             }
         }
@@ -5446,12 +5506,13 @@ Collections Area End
     margin-bottom: 35px;
     .title {
         font-size: 22px;
-        color: var(--titleColor);
+        color: var(--whiteColor);
         margin-bottom: 20px;
+        font-weight: 600;
         width: 100%;
         a {
             float: right;
-            color: var(--lightblueColor);
+            color: var(--pinkColor);
             font-size: 15px;
             transition: var(--transition);
             &:hover {
@@ -5467,15 +5528,14 @@ Collections Area End
         width: 100%;
         border-radius: 15px;
         .form-control {
-            background-color: #F6F6F6;
-            border-radius: 15px;
+            background-color: var(--lSwapDarkLight1);
+            border-radius: 8px;
             border: none;
             height: 50px;
             line-height: 50px;
             margin: 0;
-            border: 1px solid #F6F6F6;
             padding: 0 25px;
-            color: var(--bodyColor);
+            color: var(--whiteColor);
             &:focus {
                 outline: none;
                 box-shadow: none;
@@ -5489,7 +5549,7 @@ Collections Area End
             border: 0;
             border-radius: 0;
             background-color: transparent;
-            color: var(--pinkColor);
+            color: var(--whiteColor);
             height: 50px;
             line-height: 50px;
             font-size: 20px;
@@ -5549,15 +5609,16 @@ Collections Area End
 }
 
 .side-bar-widget-categories {
-    background-color: var(--whiteColor);
+    background-color: var(--lSwapDarkLight1);
     padding: 30px 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
-    border-radius: 20px;
+    border-radius: 14px;
     margin-bottom: 35px;
     .title {
         font-size: 22px;
-        color: var(--titleColor);
+        color: var(--whiteColor);
         margin-bottom: 20px;
+        font-weight: 600;
     }
     ul {
         padding: 0;
@@ -5569,26 +5630,26 @@ Collections Area End
             &:last-child {
                 margin-bottom: 0;
             }
-            a {
+            a, a:not([href]):not([class]) {
                 display: inline-block;
-                color: var(--bodyColor);
+                color: var(--lSwapGray);
                 width: 100%;
                 border-radius: 3px;
                 position: relative;
                 z-index: 1;
                 transition: var(--transition);
-                font-weight: 600;
+                font-weight: normal;
                 padding-left: 23px;
                 &::before {
                     content: '';
                     position: absolute;
-                    top: 40%;
+                    top: 50%;
                     transform: translateY(-50%);
                     left: 0;
                     width: 12px;
                     height: 12px;
                     background-color: transparent;
-                    border: 1px solid var(--lightblueColor);
+                    border: 1px solid var(--lSwapGray);
                     border-radius: 3px;
                     transition: var(--transition);
                 }
@@ -5996,6 +6057,8 @@ Contact Area
     }
     h3 {
         font-size: 26px;
+        color: var(--whiteColor);
+        font-weight: 600;
     }
     h4 {
         font-size: 23px;
@@ -6474,7 +6537,7 @@ Pagination Area
         height: 40px;
         line-height: 43px;
         color: #ffffff;
-    background-color: #303742;
+        background-color: #303742;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
         text-align: center;
         display: inline-block;
@@ -6482,7 +6545,7 @@ Pagination Area
         margin-left: 3px;
         margin-right: 3px;
         font-size: 16px;
-        border-radius: 5px;
+        border-radius: 20px;
         &:hover {
             background-color: var(--pinkColor);
             color: var(--whiteColor);

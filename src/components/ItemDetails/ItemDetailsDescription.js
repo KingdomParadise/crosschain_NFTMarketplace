@@ -102,7 +102,7 @@ const ItemDetailsDescription = () => {
 
       <div className='item-details-btn'>
         <Link to='/author-profile'>
-          <a className='default-btn border-radius-50' href={() => false}>
+          <a className='default-btn' href={() => false}>
             {' '}
             Place Bid
           </a>

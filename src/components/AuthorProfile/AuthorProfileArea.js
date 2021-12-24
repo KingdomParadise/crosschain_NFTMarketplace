@@ -50,7 +50,7 @@ const AuthorProfileArea = () => {
   return (
     <>
       <div className="author-profile-area pt-100 pb-70">
-        <div className="container">
+        <div className="container col-lg-10">
           <div className="row">
             <div className="col-lg-3">
               <div className="author-profile-sidebar  mr-20">
@@ -70,7 +70,7 @@ const AuthorProfileArea = () => {
                   predefined chunks as necessary
                 </p>
                 <div className="sp-title">
-                  0x76669f...a0e9ca52 <i className="ri-folders-line"></i>
+                  0x76669f...a0e9ca52 <i className="ri-file-copy-line"></i>
                 </div>
                 <div className="author-content">
                   <div className="content-left">

@@ -10,29 +10,19 @@ const InvolvedArea = () => {
             <h2>Get Involved</h2>
           </div>
 
-          <div className='row pt-45'>
-            <div className='col-lg-3 col-6'>
+          <div className='row pt-45 justify-content-center'>
+            <div className='col-lg-4 col-6'>
               <div className='involved-card'>
                 <div className='icon'>
-                  <i className='ri-flight-takeoff-line'></i>
+                  <img src={require('../../assets/imgs/forum.png')} alt='' />
                 </div>
                 <h3>
-                  Join Our <b>Community</b>
+                  <b>Join Our Community</b>
                 </h3>
                 <ul className='social-link'>
                   <li>
                     <a href='https://www.google.com/' target='_blank' rel="noreferrer">
-                      <i className='ri-google-fill'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://www.facebook.com/' target='_blank' rel="noreferrer">
-                      <i className='ri-facebook-fill'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
-                      <i className='ri-instagram-fill'></i>
+                      <i className='ri-telegram-fill'></i>
                     </a>
                   </li>
                   <li>
@@ -41,21 +31,21 @@ const InvolvedArea = () => {
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.linkedin.com/' target='_blank' rel="noreferrer">
-                      <i className='ri-linkedin-fill'></i>
+                    <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
+                      <i className='ri-instagram-fill'></i>
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className='col-lg-3 col-6'>
+            <div className='col-lg-4 col-6'>
               <div className='involved-card'>
                 <div className='icon'>
-                  <i className='ri-checkbox-circle-line'></i>
+                <img src={require('../../assets/imgs/color_lens.png')} alt='' />
                 </div>
                 <h3>
-                  Become A <b>Creator</b>
+                  <b>Become A Creator</b>
                 </h3>
                 <Link to='/register'>
                   <a className='default-btn' href={() => false}>
@@ -65,29 +55,13 @@ const InvolvedArea = () => {
               </div>
             </div>
 
-            <div className='col-lg-3 col-6'>
+            <div className='col-lg-4 col-6'>
               <div className='involved-card'>
                 <div className='icon'>
-                  <i className='ri-heart-2-line'></i>
+                <img src={require('../../assets/imgs/emoji_people.png')} alt='' />
                 </div>
                 <h3>
-                  Become A <b>Charity Partner</b>
-                </h3>
-                <Link to='/create-collection'>
-                  <a className='default-btn' href={() => false}>
-                    Express Interest
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className='col-lg-3 col-6'>
-              <div className='involved-card'>
-                <div className='icon'>
-                  <i className='ri-discuss-line'></i>
-                </div>
-                <h3>
-                  Reach Out To <b>Our Team</b>
+                  <b>Reach Out To Our Team</b>
                 </h3>
                 <Link to='/contact'>
                   <a className='default-btn' href={() => false}>

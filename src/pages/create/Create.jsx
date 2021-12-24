@@ -5,7 +5,7 @@ const Create = () => {
     return (
         <div className="author-color">
             <PageBanner
-                bannerHeading='Recent Activity'
+                bannerHeading='Create NFT'
                 parentTitle='Activity'
                 pageTitle=''
                 bg='inner-bg13'
