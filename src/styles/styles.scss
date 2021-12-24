@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h3 {
     font-size: 22px;
+    font-weight: normal;
 }
 .d-table {
     width: 100%;
@@ -932,6 +933,7 @@ Main Banner Area
         // color: var(--pinkColor);
         display: block;
         margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.6);
     }
     h1 {
         font-size: 56px;
@@ -943,6 +945,7 @@ Main Banner Area
         margin-bottom: 30px;
         max-width: 700px;
         color: var(--whiteColor);
+        font-weight: 600;
     }
     .banner-btn {
         .two {
@@ -1070,9 +1073,9 @@ Main Banner Area
             }
             span {
                 font-size: 14px;
-                color: var(--bodyColor);
+                color: var(--lSwapPink);
                 a {
-                    color: var(--bodyColor);
+                    color: var(--lSwapPink);
                     transition: var(--transition);
                     &:hover {
                         color: var(--pinkColor);
@@ -1727,8 +1730,8 @@ Trending Area
             height: 45px;
             line-height: 45px !important;
             border-radius: 50px !important;
-            background-color: var(--whiteColor) !important;
-            color: var(--pinkColor) !important;
+            background-color: var(--lSwapDarkLight2) !important;
+            color: var(--whiteColor) !important;
             transition: var(--transition);
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
             &:hover {
@@ -1748,8 +1751,8 @@ Trending Area
             height: 45px;
             line-height: 45px !important;
             border-radius: 50px !important;
-            background-color: var(--whiteColor) !important;
-            color: var(--pinkColor) !important;
+            background-color: var(--lSwapDarkLight2) !important;
+            color: var(--whiteColor) !important;
             transition: var(--transition);
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
             &:hover {
@@ -1822,7 +1825,7 @@ Trending Area
                     padding-top: 3px;
                     font-size: 14px;
                     color: var(--titleColor);
-                    font-weight: 600;
+                    font-weight: normal;
                     transition: var(--transition);
                     line-height: 1;
                 }
@@ -1862,7 +1865,7 @@ Trending Area
             span {
                 font-size: 16px;
                 color: var(--whiteColor);
-                font-weight: 500;
+                font-weight: normal;
             }
             h3 {
                 font-size: 16px;
@@ -2988,6 +2991,7 @@ Top Seller Area
             margin-bottom: 7px;
             a {
                 color: #ffffff;
+                font-weight: 600;
             }
         }
         span {
@@ -3194,6 +3198,7 @@ Auctions Area
                     font-size: 20px;
                     color: var(--whiteColor);
                     margin-bottom: 0;
+                    font-weight: 600;
                 }
             }
             .auction-right {
@@ -3727,7 +3732,7 @@ Featured Area
                 span {
                     font-size: 14px;
                     color: var(--titleColor);
-                    font-weight: 600;
+                    font-weight: normal;
                     transition: var(--transition);
                     line-height: 1;
                     padding-top: 5px;
@@ -3762,9 +3767,9 @@ Featured Area
                 right: 0;
                 width: 100%;
                 height: 100%;
-                background-color: rgba(0, 0, 0, 0.35);
-                backdrop-filter: blur(25px);
                 border-radius: 5px;
+                background: rgba(250, 250, 250, 0.35);
+                backdrop-filter: blur(25px);
             }
         }
         .default-btn {
@@ -6655,7 +6660,7 @@ Animation CSS
 .react-tabs__tab--selected {
 
 		a {
-			background-color: #F14D5D !important;
+			background-color: var(--pinkColor) !important;
 			color: #fff !important;
 		}
 	
@@ -6702,4 +6707,11 @@ Animation CSS
 }
 .footer {
     color: var(--lSwapGray);
+}
+.create-area {
+    .section-title {
+        h2 {
+            font-weight: normal;
+        }
+    }
 }
