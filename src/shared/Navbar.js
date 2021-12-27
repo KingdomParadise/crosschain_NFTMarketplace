@@ -11,10 +11,15 @@ class Navbar extends Component {
   render () {
     return (
       <nav className="navbar p-0 fixed-top d-flex flex-row">
-        <div className="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+        
+      
+        <div className="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+        <button className="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" onClick={this.toggleOffcanvas}>
+            <span className="mdi mdi-format-line-spacing"></span>
+          </button>
+          <div className="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
           <Link className="navbar-brand brand-logo-mini" to="/"><img src={lion2_icon} alt="logo" /></Link>
         </div>
-        <div className="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
           <ul className="navbar-nav w-100">
             <li className="nav-item w-100">
               <form className="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
@@ -33,9 +38,7 @@ class Navbar extends Component {
             <button className="btn create-btn me-2">Create</button>
             <button className="btn connect-btn">Connect</button>
           </ul>
-          <button className="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" onClick={this.toggleOffcanvas}>
-            <span className="mdi mdi-format-line-spacing"></span>
-          </button>
+         
         </div>
       </nav>
     );
