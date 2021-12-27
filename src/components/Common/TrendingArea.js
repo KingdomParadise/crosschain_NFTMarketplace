@@ -58,7 +58,7 @@ const TrendingArea = ({ bg }) => {
             </div>
           </div>
 
-          <div className='trending-slider pt-45'>
+          <div className='trending-slider col-xxl-10 mx-auto pt-45'>
             {display ? (
               <OwlCarousel {...options}>
                 <div className='trending-item'>
