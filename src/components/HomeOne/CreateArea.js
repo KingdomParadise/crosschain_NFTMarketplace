@@ -12,7 +12,7 @@ const CreateArea = () => {
           <div className='row align-items-center pt-45'>
             <div className='col-lg-6'>
               <div className='create-img'>
-                <img src={require('../../assets/imgs/create-img.png')} alt='Images' />
+                <img src={require('../../assets/imgs/create-img.svg').default} alt='Images' />
               </div>
             </div>
 
@@ -22,7 +22,7 @@ const CreateArea = () => {
                   <div className='col-lg-6 col-6'>
                     <div className='create-card'>
                       <img
-                        src={require('../../assets/imgs/create/account_balance_wallet.png')}
+                        src={require('../../assets/imgs/create/account_balance_wallet.svg').default}
                         alt='Images'
                       />
                       <h3> <Link to='/add-wallet'>
@@ -38,7 +38,7 @@ const CreateArea = () => {
                   <div className='col-lg-6 col-6'>
                     <div className='create-card'>
                       <img
-                        src={require('../../assets/imgs/create/photo_library.png')}
+                        src={require('../../assets/imgs/create/photo_library.svg').default}
                         alt='Images'
                       />
                       <h3><Link to='/create-collection'>
@@ -56,7 +56,7 @@ const CreateArea = () => {
                   <div className='col-lg-6 col-6'>
                     <div className='create-card'>
                       <img
-                        src={require('../../assets/imgs/create/add_photo_alternate.png')}
+                        src={require('../../assets/imgs/create/add_photo_alternate.svg').default}
                         alt='Images'
                       />
                       <h3><Link to='/help-center'>
@@ -72,7 +72,7 @@ const CreateArea = () => {
                   <div className='col-lg-6 col-6'>
                     <div className='create-card'>
                       <img
-                        src={require('../../assets/imgs/create/loyalty.png')}
+                        src={require('../../assets/imgs/create/loyalty.svg').default}
                         alt='Images'
                       />
                       <h3><Link to='/activity'>

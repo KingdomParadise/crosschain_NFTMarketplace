@@ -1164,6 +1164,7 @@ Main Banner Area
         z-index: -1;
         top: 0;
         left: 20%;
+        height: 100%;
     }
     .shape-in1 {
         position: absolute;
@@ -6762,12 +6763,13 @@ Animation CSS
     color:#777E89;
 }
 .social_icon {
-    border-radius: 50%;
+    border-radius: 9px;
     background: #777E89;
     color: #fff;
-    height: 28px;
-    width: 28px;
+    height: 18px;
+    width: 18px;
     text-align: center;
+    margin: auto 0;
     margin-right: 5px;
 
 }

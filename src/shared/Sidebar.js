@@ -113,10 +113,10 @@ class Sidebar extends Component {
           </div>
           <div className="d-flex  justify-content-center">
               <div className="lion_icon pe-3"><span className=" mdi mdi-web pe-1"></span> EN</div>
-              <div className="social_icon "><span className=" mdi mdi-send "></span> </div>
-              <div className="social_icon "><span className=" mdi mdi-twitter"></span> </div>
-              <div className="social_icon "><img src={require('../assets/imgs/social.png')} alt='' /></div>
-              <div className="social_icon "><img src={require('../assets/imgs/website.png')} alt='' /> </div>
+              <div className="social_icon "><img src={require('../assets/imgs/telegram.svg').default} alt='' /></div>
+              <div className="social_icon "><img src={require('../assets/imgs/twitter.svg').default} alt='' /></div>
+              <div className="social_icon "><img src={require('../assets/imgs/social.svg').default} alt='' /></div>
+              <div className="social_icon "><img src={require('../assets/imgs/WWW.svg').default} alt='' /> </div>
           </div>
        </div>
        </div>
