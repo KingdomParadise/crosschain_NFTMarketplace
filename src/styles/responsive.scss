@@ -3,6 +3,9 @@
   body {
     font-size: 15px;
   }
+  .activity-card .activity-img {
+    width: 20%;
+  }
   .ptb-100 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -377,7 +380,7 @@
     }
     .banner-btn {
       .two {
-        margin-left: 10px;
+        margin-left: 0px;
       }
     }
   }
@@ -617,8 +620,8 @@
     margin-bottom: 30px;
     .owl-nav {
       .owl-prev {
-        position: inherit;
-        top: 0;
+        // position: inherit;
+        top: 41%;
         transform: translateY(-0%);
         left: 0;
         font-size: 16px !important;
@@ -629,8 +632,8 @@
         background-color: var(--pinkColor) !important;
       }
       .owl-next {
-        position: inherit;
-        top: 0;
+        // position: inherit;
+        top: 41%;
         transform: translateY(-0%);
         right: 0;
         font-size: 16px !important;
@@ -4240,8 +4243,8 @@
 
   .activity-card {
     .activity-into {
-      margin-left: 100px;
-      margin-right: 140px;
+      // margin-left: 100px;
+      margin-right: 15px;
     }
   }
 
