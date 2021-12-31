@@ -923,7 +923,7 @@ Main Banner Area
 ====================================*/
 .banner-area {
     background: linear-gradient(180deg, #3F51B5 0%, #941C6B 100%);
-    padding: 150px 0 70px;  
+    padding: 70px 0 70px;  
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -1474,15 +1474,13 @@ Inner Banner Area
     background-repeat: no-repeat;
     .inner-title {
         margin: 0px -15px;
-        padding: 50px 12px 60px 12px;
+        padding: 50px 12px 35px 12px;
         position: relative;
         z-index: 1;
-        padding-top: 50px;
-        padding-bottom: 60px;
         position: relative;
         z-index: 1;
-        background: linear-gradient(
-        90deg, #3F51B5 0%, #941C6B 100%);
+        // background: linear-gradient(
+        // 90deg, #3F51B5 0%, #941C6B 100%);
         h3 {
             font-size: 40px;
             color: var(--whiteColor);
@@ -1710,12 +1708,12 @@ Inner Banner Area
                     display: inline-block;
                     border-radius: 50px;
                 }
-                &:hover {
-                    i {
-                        background-color: var(--lightblueColor);
-                        color: var(--whiteColor);
-                    }
-                }
+                // &:hover {
+                //     i {
+                //         background-color: var(--lightblueColor);
+                //         color: var(--whiteColor);
+                //     }
+                // }
             }  
         }
     } 
@@ -2083,7 +2081,9 @@ Trending Area
 }
 
 .trending-area-bg-two {
-    background-color: #0A1831 !important;
+    // background-color: #0A1831 !important;
+    background: linear-gradient(
+180deg, #1C2028 0%, #2E3540 100%);
     .section-title {
         h2 {
             color: var(--whiteColor) !important;
@@ -2332,13 +2332,13 @@ Item Details Area
         padding: 8px 16px 6px;
         font-size: 14px;
         color: #EA1E62;
-        background-color: #E5E5E5;
-        border: 1px solid var(--whiteColor);
+        background-color: #fff;
+        // border: 1px solid var(--whiteColor);
         border-radius: 15px;
         i {
             position: relative;
-            top: 3px;
-            margin-right: 3px;
+            top: 2px;
+    margin-right: 1px;
             color: var(--pinkColor);
         }
     }
@@ -2364,15 +2364,15 @@ Item Details Area
         }
         /* Track */
         &::-webkit-scrollbar-track {
-            background: var(--whiteColor);
+            background: #15181E;
         }
         /* Handle */
         &::-webkit-scrollbar-thumb {
-            background: var(--lightblueColor);
+            background: #303742;
         }
         /* Handle on hover */
         &::-webkit-scrollbar-thumb:hover {  
-            background: var(--lightblueColor);
+            background: #303742;
         }
     }
   
@@ -2450,8 +2450,8 @@ Item Details Area
             position: relative;
             margin-right: 20px;
             img {
-                border: 1px solid var(--pinkColor);
-                border-radius: 10px;
+                border: 1px solid #ffffff;
+                border-radius: 5px;
                 max-width: 45px;
             }
             i {
@@ -2636,17 +2636,17 @@ Item Details Area
         &::-webkit-scrollbar {
             width: 7px;
         }
-        /* Track */
-        &::-webkit-scrollbar-track {
-            background: var(--whiteColor);
+         /* Track */
+         &::-webkit-scrollbar-track {
+            background: #15181E;
         }
         /* Handle */
         &::-webkit-scrollbar-thumb {
-            background: var(--lightblueColor);
+            background: #303742;
         }
         /* Handle on hover */
         &::-webkit-scrollbar-thumb:hover {  
-            background: var(--lightblueColor);
+            background: #303742;
         }
     }
   
@@ -3595,8 +3595,8 @@ Auctions Area
             border-radius: 50px;
             i {
                 position: relative;
-                top: 3px;
-                margin-right: 3px;
+                top: 2px;
+                margin-right: 1px;
                 color: var(--pinkColor);
             }
         }
@@ -3663,7 +3663,7 @@ Auctions Area
                 width: 550px;
                 height: 550px;
                 margin: auto;
-                background: var(--lSwapBlue);
+                background: #3F51B5;
                 border-radius: 50px;
                 z-index: -1;
                 transform-origin: top center;
@@ -3696,7 +3696,7 @@ Auctions Area
                 }
             }
             p {
-                background-color: rgba(250, 250, 250, 0.40);
+                background-color: rgb(48 55 66);
             }
         }
     }
@@ -3760,8 +3760,8 @@ Featured Area
 }
 .featured-item {
     margin-bottom: 30px;
-    background-color: var(--whiteColor);
-    border-radius: 5px;
+    border-radius: 8px;
+    background: #20252D;
 
     .featured-item-img {
         position: relative;
@@ -4011,8 +4011,8 @@ Featured Area
 
             i {
                 position: relative;
-                top: 3px;
-                margin-right: 3px;
+                top: 2px;
+                margin-right: 1px;
                 color: var(--pinkColor);
             }
         }
@@ -4030,6 +4030,7 @@ Featured Area
     .content {
         padding: 20px 15px 25px;
         background: #20252D;
+        border-radius: 0px 0px 14px 14px;
         h3 {
             margin-bottom: 10px;
 
@@ -5038,7 +5039,7 @@ Author Area
             cursor: pointer;
             transition: var(--transition);
             &:hover {
-                background-color: var(--titleColor);
+                background-color: #3f51b5;
             }
             .author-social {
                 padding-left: 0;
@@ -5069,7 +5070,7 @@ Author Area
                             text-align: center;
                             font-size: 16px;
                             color: var(--whiteColor);
-                            background-color:  var(--lightblueColor);
+                            background-color: #3f51b5;
                             transition: var(--transition);
                             display: inline-block;
                             border-radius: 50px;
@@ -6555,7 +6556,7 @@ Pagination Area
         width: 40px;
         height: 40px;
         line-height: 43px;
-        color: #ffffff;
+        color: #777E89;
         background-color: #303742;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
         text-align: center;
@@ -6573,7 +6574,7 @@ Pagination Area
             position: relative;
             font-size: 23px;
             line-height: normal;
-            top: 7px;
+            top: 6px;
         }
         &.current {
             background-color: var(--pinkColor);
@@ -6757,7 +6758,7 @@ Animation CSS
 		.author-tabs {
 			position: absolute;
 			top: -41px;
-			left: -28px;
+			left: -17px;
 		}
 	}
 }
@@ -6781,14 +6782,21 @@ Animation CSS
     color:#777E89;
 }
 .social_icon {
-    border-radius: 9px;
+    border-radius: 50%;
     background: #777E89;
     color: #fff;
-    height: 18px;
-    width: 18px;
+    height: 28px;
+    width: 28px;
     text-align: center;
     margin: auto 0;
     margin-right: 5px;
+    cursor: pointer;
+    padding: 0px 3px;
+    img{
+        position: relative;
+        top: 1px;
+        height: 15px;
+    }
 
 }
 .footer {
@@ -6810,4 +6818,8 @@ Animation CSS
     overflow: auto;
     margin-left: 23px;
     }
+}
+.side_fix{
+    position: fixed;
+    height:100vh
 }

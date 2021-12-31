@@ -63,7 +63,7 @@ class Sidebar extends Component {
           <Link className="sidebar-brand brand-logo" to={'/'}><img src={require('../assets/images/logo-mini.svg').default} alt="logo" /></Link>
           {/*<a className="sidebar-brand brand-logo-mini" href="index.html"><img src={require('../assets/images/logo-mini.svg').default} alt="logo" /></a>*/}
         </div>
-        <div className="d-flex flex-column justify-content-between h-100">
+        <div className="d-flex flex-column justify-content-between h-100 side_fix">
         <ul className="nav">
           <li className={ this.isPathActive('/dashboard') ? 'nav-item menu-items active' : 'nav-item menu-items' }>
             <Link className="nav-link active" to="/dashboard">

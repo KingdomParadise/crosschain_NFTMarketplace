@@ -47,8 +47,8 @@ const BannerArea = () => {
   return (
     <>
       <div className='banner-area'>
-        <div className='container-fluid'>
-          <div className='row align-items-center px-5'>
+        <div className='container-fluid px-5'>
+          <div className='row align-items-center'>
             <div className='col-lg-6'>
               <div className='banner-content'>
                 <span>Buying & Selling NFT World</span>

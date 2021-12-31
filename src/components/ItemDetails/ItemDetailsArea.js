@@ -7,8 +7,8 @@ const ItemDetailsArea = () => {
   return (
     <>
       <div className='item-details-area pt-100 pb-70'>
-        <div className='container row justify-content-md-center'>
-          <div className='row col-xxl-10'>
+        <div className='container col-xxl-10'>
+          <div className='row '>
             <div className='col-xl-7'>
               <div className='item-details-left-side pr-20'>
                 <div className='item-details-img'>
