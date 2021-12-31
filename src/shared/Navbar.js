@@ -27,7 +27,7 @@ class Navbar extends Component {
                   <input className="form-control" type="search" id="earch-input" placeholder="Search items, Creators"/>
                   <span className="input-group-append">
                       <button className="btn ms-n5" type="button">
-                        <span className="mdi mdi-magnify"></span>
+                        <img src={require('../assets/imgs/magnifier.svg').default} alt='' />
                       </button>
                   </span>
               </div>

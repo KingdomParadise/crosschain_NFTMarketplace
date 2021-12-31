@@ -219,7 +219,7 @@ const BannerArea = () => {
           </div>
 
           <div className='shape-bg'>
-            <img src={require('../../assets/imgs/home-one/bg-shape.png')} alt='Images' />
+            <img src={require('../../assets/imgs/home-one/bg-shape.svg').default} alt='Images' height="100%" />
           </div>
         </div>
       </div>
