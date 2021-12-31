@@ -328,13 +328,14 @@
     }
     .search {
       .input-group {
-        width: 40%;
+        width: 30%;
       }
       input {
         background: #15181E;
         border-radius: 8px;
         padding: 13px 20px 11px 20px;
         border: none;
+        color: #fff;
         &::placeholder {
           color: #FFF;
           font-size: $input-placeholder-font-size;

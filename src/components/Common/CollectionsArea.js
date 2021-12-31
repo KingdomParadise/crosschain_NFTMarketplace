@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const CollectionsArea = () => {
   return (
     <>
-      <div className='collections-area pt-100 pb-70'>
+      <div className='collections-area pt-100 pb-70 px-5'>
         <div className='container'>
           <div className='section-title'>
             <h2>Hot Collections</h2>

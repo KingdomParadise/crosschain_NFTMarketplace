@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const AuthorArea = () => {
   return (
     <>
-      <div className='author-area author-area-bg pt-100 pb-70'>
+      <div className='author-area author-area-bg  px-5 pt-100 pb-70'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-8'>

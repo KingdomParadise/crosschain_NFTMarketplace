@@ -171,9 +171,9 @@ Default Btn CSS
     align-items: center;
     justify-content: center;
     position: relative;
-    border-radius: 8px;
+    border-radius: 8px !important;
     z-index: 0;
-    background-color: #EA1E62;
+    background-color: #03a9f4;
     overflow: hidden;
     white-space: nowrap;
     border: 0;
@@ -968,8 +968,8 @@ Main Banner Area
         position: relative;
 
         img {
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
         }
         .banner-card-content {
             position: absolute;
@@ -1912,7 +1912,7 @@ Trending Area
         text-align: center;
         padding: 20px;
         background-color: #20252D;
-        border-radius: 0 0 5px 5px;
+        border-radius: 0 0 14px 14px;
 
         h3 {
             margin-bottom: 7px;
@@ -3181,7 +3181,7 @@ Auctions Area
         line-height: 0;
         .owl-dot {
             span {
-                background-color: #C4C4C4 !important;
+                background-color: #fff !important;
                 transition: 0.7s !important;
                 margin: 0 7px;
                 width: 7px !important;
@@ -3213,7 +3213,7 @@ Auctions Area
 }
 .auction-item {
     margin-bottom: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #20252d;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
     transition: var(--transition);
@@ -3222,8 +3222,8 @@ Auctions Area
         position: relative;
 
         img {
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
         }
         .auction-item-content {
             position: absolute;
@@ -3708,7 +3708,7 @@ Auctions Area End
 Featured Area
 ====================================*/
 .featured-area  {
-    // background-color: #303742;
+    background-color: #303742;
 }
 .featured-tab-area {
     .tabs {
@@ -3721,7 +3721,7 @@ Featured Area
             line-height: initial;
             margin-right: 20px;
             &:last-child {
-                margin-right: 0;
+                margin-right: -5px;
             }
             a {
                 display: inline-block;
@@ -3852,7 +3852,7 @@ Featured Area
     .content {
         padding: 20px 15px;
         background: #20252D;
-
+        border-radius: 0 0 8px 8px;
         h3 {
             margin-bottom: 10px;
 
@@ -3867,7 +3867,7 @@ Featured Area
             justify-content: space-between;
             padding: 12px 12px 10px;
             border-radius: 3px;
-            border: 1px solid var(--lightblueColor);
+            border: 1px solid #313742;
 
             span {
                 font-size: 15px;
@@ -4462,6 +4462,8 @@ Author Area
    position: relative;
    z-index: 1;
    overflow: hidden;
+   background: linear-gradient(
+180deg, #1C2028 0%, #2E3540 100%);
     .section-title {
         h2 {
             color: var(--whiteColor);
@@ -4476,6 +4478,13 @@ Author Area
     top: 25%;
     right: 0;
     z-index: -1;
+    img{
+        filter: grayscale(1);
+    opacity: 0.2;
+    position: relative;
+    width: 100%;
+    bottom: -150px;
+    }
 }
 .author-area-shape-two {
     position: absolute;
@@ -4486,7 +4495,7 @@ Author Area
 .author-card {
     margin-bottom: 30px;
     background-color: var(--whiteColor);
-    border-radius: 5px;
+    border-radius: 8px;
     transition: var(--transition);
     a {
         display: block;
@@ -4499,6 +4508,7 @@ Author Area
         padding: 0 20px 25px;
         position: relative;
         background: #20252D;
+        border-radius: 0 0 8px 8px;
         .content-follow {
             display: inline-block;
             padding: 10px 14px 8px;
@@ -4587,6 +4597,7 @@ Author Area
                 border-radius: 5px;
                 border: 3px solid var(--whiteColor);
                 max-width: 64px;
+                margin-top: -30px;
             }
             i {
                 position: absolute;
@@ -5444,6 +5455,7 @@ Collections Area
     transition: var(--transition);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
     transition: var(--transition);
+    background: #20252D;
     a {
         display: block;
         img {
@@ -5455,13 +5467,14 @@ Collections Area
         padding: 0 20px 20px;
         text-align: center;
         background: #20252D;
+        border-radius: 0px 0px 8px 8px;
         .collections-user {
             position: relative;
             margin-top: -30px;
             margin-bottom: 20px;
             img {
                 border-radius: 50%;
-                border: 3px solid var(--lightblueColor);
+                border: 3px solid #fff;
             }
             i {
                 position: absolute;
@@ -5482,6 +5495,7 @@ Collections Area
             a {
                 color:#EA1E62;
                 transition: var(--transition);
+                font-weight: 500;
             }
         }
         span {
@@ -5496,6 +5510,7 @@ Collections Area
             h3 {
                 a {
                     color: var(--pinkColor);
+                   
                 }
             }
         }

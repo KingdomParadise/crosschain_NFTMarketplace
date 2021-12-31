@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const TopSeller = ({ pt100 }) => {
   return (
     <>
-      <div className={`top-sellers-area pb-70 ${pt100}`}>
+      <div className={`top-sellers-area px-5 pb-70 ${pt100}`}>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 col-md-7'>

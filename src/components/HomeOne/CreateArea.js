@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const CreateArea = () => {
   return (
     <>
-      <div className='create-area pt-100 pb-70'>
+      <div className='create-area px-5 pt-100 pb-70'>
         <div className='container'>
           <div className='section-title text-center'>
             <h2>Create And Sell Your NFTs</h2>

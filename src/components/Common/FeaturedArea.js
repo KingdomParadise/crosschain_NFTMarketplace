@@ -50,8 +50,8 @@ const FeaturedArea = ({ title, pagination }) => {
 
   return (
     <>
-      <div className='featured-area pt-100 pb-70'>
-        <div className='container col-lg-10'>
+      <div className='featured-area px-5 pt-100 pb-70'>
+        <div className='container'>
           <div className='tab featured-tab-area'>
             <div className='row align-items-center'>
               <div className='col-lg-6 col-md-4'>

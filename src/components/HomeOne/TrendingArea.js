@@ -42,7 +42,7 @@ const TrendingArea = () => {
 
   return (
     <>
-      <div className='trending-area pt-100 pb-70'>
+      <div className='trending-area px-5  pt-100 pb-70'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 col-md-7'>

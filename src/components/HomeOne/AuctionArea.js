@@ -34,7 +34,7 @@ const AuctionArea = () => {
 
   return (
     <>
-      <div className='auctions-area pb-100'>
+      <div className='auctions-area px-5 pb-100'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-8 col-md-8'>
