@@ -24,7 +24,7 @@ const AuthorProfile = () => {
           predefined chunks as necessary
         </p>
         <div className='sp-title'>
-          0x76669f...a0e9ca52 <i className='ri-folders-line'></i>
+          0x76669f...a0e9ca52 <img src={require('../../assets/imgs/content_copy.svg').default} alt='' />
         </div>
         <div className='author-content'>
           <div className='content-left'>

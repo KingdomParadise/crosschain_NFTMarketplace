@@ -74,7 +74,7 @@ button {
     }
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+    font-weight: 500;
     color: var(--titleColor);
     line-height: 1.4;
 }
@@ -165,7 +165,7 @@ Default Btn CSS
     text-align: center;
     color: var(--whiteColor) !important;
     font-size: var(--fontSize);
-    font-weight: 600;
+    font-weight: 500;
     transition: var(--transition);
     display: inline-block;
     align-items: center;
@@ -947,7 +947,7 @@ Main Banner Area
         margin-bottom: 30px;
         max-width: 700px;
         color: var(--whiteColor);
-        font-weight: 600;
+        font-weight: 500;
     }
     .banner-btn {
         .two {
@@ -1003,14 +1003,14 @@ Main Banner Area
                     color: var(--whiteColor);
                     margin-bottom: 7px;
                     display: block;
-                    font-weight: 600;
+                    font-weight: 500;
                     line-height: 1.4;
                 }
                 h3 {
                     font-size: 20px;
                     color: var(--whiteColor);
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                     line-height: 1.6;
                 }
             }
@@ -1020,13 +1020,13 @@ Main Banner Area
                     color: var(--whiteColor);
                     margin-bottom: 7px;
                     display: block;
-                    font-weight: 600;
+                    font-weight: 500;
                 }
                 .timer-text {
                     font-size: 20px;
                     color: var(--whiteColor);
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                     font-family: var(--bodyFonts);
                 }
             }
@@ -1292,7 +1292,7 @@ Main Banner Area
                 span {
                     font-size: 14px;
                     color: var(--titleColor);
-                    font-weight: 600;
+                    font-weight: 500;
                     transition: var(--transition);
                     line-height: 1;
                 }
@@ -1362,7 +1362,7 @@ Main Banner Area
                     font-size: 20px;
                     color: var(--titleColor);
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                     font-family: var(--bodyFonts);
                 }
             }
@@ -1373,7 +1373,7 @@ Main Banner Area
             text-align: center;
             color: var(--whiteColor) !important;
             font-size: 15px;
-            font-weight: 600;
+            font-weight: 500;
             transition: var(--transition);
             display: inline-block;
             align-items: center;
@@ -1486,7 +1486,7 @@ Inner Banner Area
             color: var(--whiteColor);
             line-height: 1.2;
             margin-bottom: 15px;
-            font-weight: 600;
+            font-weight: 500;
         }
         ul {
             list-style: none;
@@ -1818,7 +1818,7 @@ Trending Area
             display: block;
 
             img {
-                border-radius: 15px;
+                border-radius: 14px;
             }
         }
         .default-btn {
@@ -2036,7 +2036,7 @@ Trending Area
             span {
                 font-size: 14px;
                 color: var(--titleColor);
-                font-weight: 600;
+                font-weight: 500;
                 transition: var(--transition);
                 line-height: 1;
             }
@@ -2352,7 +2352,7 @@ Item Details Area
     h3 {
         margin-bottom: 20px;
         color: var(--whiteColor);
-        font-weight: 600;
+        font-weight: 500;
     }
     .item-details-into {
         height: 325px;
@@ -2383,6 +2383,7 @@ Item Details Area
         background-color: #303742;
         padding: 20px;
         position: relative;
+        border-radius: 8px;
         .item-details-card-img {
             max-width: 55px;
             position: relative;
@@ -2410,7 +2411,7 @@ Item Details Area
                 font-size: 16px;
                 margin-bottom: 7px;
                 color: var(--lSwapGray);
-                font-weight: 600;
+                font-weight: 500;
                 b {
                     color: #fff;
                 }
@@ -2440,7 +2441,7 @@ Item Details Area
         margin-bottom: 15px;
         font-size: 16px;
         color: var(--whiteColor);
-        font-weight: 600;
+        font-weight: 500;
     }
     .content {
         display: flex;
@@ -2485,7 +2486,7 @@ Item Details Area
             margin-bottom: 0;
             font-size: 20px;
             color: var(--whiteColor);
-            font-weight: 600;
+            font-weight: 500;
         }
         p {
             margin-bottom: 0;
@@ -2553,7 +2554,7 @@ Item Details Area
         h3 {
             margin-bottom: 5px;
             color: var(--whiteColor);
-            font-weight: 600;
+            font-weight: 500;
         }
         span {
             color: var(--bodyColor);
@@ -2582,7 +2583,7 @@ Item Details Area
             font-size: 20px;
             color: var(--lSwapGray);
             margin-bottom: 0;
-            font-weight: 600;
+            font-weight: 500;
             font-family: var(--bodyFonts);
         }
     }
@@ -2598,7 +2599,7 @@ Item Details Area
             font-size: 20px;
             color: var(--pinkColor);
             margin-bottom: 0;
-            font-weight: 600;
+            font-weight: 500;
             font-family: var(--bodyFonts);
         }
     }
@@ -2626,7 +2627,7 @@ Item Details Area
     h3 {
         margin-bottom: 20px;
         color: var(--whiteColor);
-        font-weight: 600;
+        font-weight: 500;
     }
     .item-details-user-into {
         height: 325px;
@@ -2657,6 +2658,7 @@ Item Details Area
         background-color: #303742;
         padding: 20px;
         position: relative;
+        border-radius: 8px;
         .item-details-card-img {
             position: relative;
             margin-right: 20px;
@@ -2678,7 +2680,7 @@ Item Details Area
             span {
                 color: var(--lSwapGray);
                 font-size: 16px;
-                font-weight: 600;
+                font-weight: 500;
                 b {
                     color: #fff;
                 }
@@ -2727,7 +2729,7 @@ Collection Form Area
         label {
             margin-bottom: 20px;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 500;
             color: var(--whiteColor);
         }
         &.checkbox-option {
@@ -2763,7 +2765,7 @@ Collection Form Area
                 box-shadow: none;
             }
             &::-webkit-input-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder {
-                color: var(--bodyColor);
+                color: var(--lSwapGray);
             }
         }
         textarea.form-control {
@@ -2786,7 +2788,7 @@ Collection Form Area
         font-size: 20px;
         margin-bottom: 20px;
         color: var(--whiteColor);
-        font-weight: 600;
+        font-weight: 500;
     }
     .profileButton {
         position: relative;
@@ -2816,7 +2818,7 @@ Collection Form Area
             transition: var(--da);
             margin: 0;
             color: var(--lSwapGray);
-            border: none;
+            border: 1px solid var(--lSwapDark);
             background-color: var(--lSwapDark);
             &:hover {
                 border: 1px solid var(--pinkColor);
@@ -2838,7 +2840,7 @@ Collection Form Area
     h3 {
         font-size: 20px;
         margin-bottom: 20px;
-        font-weight: 600;
+        font-weight: 500;
         color: var(--whiteColor);
     }
     .previewButton {
@@ -2890,7 +2892,7 @@ Collection Form Area
     h3 {
         font-size: 20px;
         margin-bottom: 20px;
-        font-weight: 600;
+        font-weight: 500;
         color: var(--whiteColor);
     }
     ul {
@@ -3012,9 +3014,9 @@ Top Seller Area
     margin-bottom: 30px;
     .number {
         color: var(--pinkColor);
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 0;
-        margin-right: 10px;
+        width: 27px;
     }
 
     .top-sellers-img {
@@ -3047,7 +3049,7 @@ Top Seller Area
             margin-bottom: 7px;
             a {
                 color: #ffffff;
-                font-weight: 600;
+                font-weight: 500;
             }
         }
         span {
@@ -3121,7 +3123,7 @@ Activity Area
             margin-bottom: 15px;
             transition: var(--transition);
             color: var(--whiteColor);
-            font-weight: 600;
+            font-weight: 500;
         }
         span {
             font-size: 15px;
@@ -3264,7 +3266,7 @@ Auctions Area
                     font-size: 20px;
                     color: var(--whiteColor);
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                 }
             }
             .auction-right {
@@ -3279,7 +3281,7 @@ Auctions Area
                     font-size: 20px;
                     color: var(--whiteColor);
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                     font-family: var(--bodyFonts);
                 }
             }
@@ -3561,7 +3563,7 @@ Auctions Area
                     position: relative;
                     margin: 0 3px;
                     font-size: 20;
-                    font-weight: 600;
+                    font-weight: 500;
                     &:last-child {
                         margin-right: 0;
                     }
@@ -3580,7 +3582,7 @@ Auctions Area
             a {
                 color: #fff;
                 transition: var(--transition);
-                font-weight: 600;
+                font-weight: 500;
             }
         }
         p {
@@ -3633,7 +3635,7 @@ Auctions Area
                     font-size: 20px;
                     color: var(--whiteColor);
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                     font-family: var(--bodyFonts);
                 }
             }
@@ -3643,7 +3645,7 @@ Auctions Area
             text-align: center;
             color: var(--whiteColor) !important;
             font-size: 15px;
-            font-weight: 600;
+            font-weight: 500;
             transition: var(--transition);
             display: inline-block;
             align-items: center;
@@ -3771,8 +3773,8 @@ Featured Area
             display: block;
 
             img {
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
             }
         }
         .featured-user {
@@ -4502,8 +4504,8 @@ Author Area
     a {
         display: block;
         img {
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
         }
     }
     .content {
@@ -4701,7 +4703,7 @@ Author Area
                 cursor: pointer;
                 transition: var(--transition);
                 &:hover {
-                    background-color: var(--lightblueColor);
+                    background-color: #3F51B5;
                 }
                 .author-social {
                     padding-left: 0;
@@ -4732,7 +4734,7 @@ Author Area
                                 text-align: center;
                                 font-size: 16px;
                                 color: var(--whiteColor);
-                                background-color:  var(--lightblueColor);
+                                background-color:  #3F51B5;
                                 transition: var(--transition);
                                 display: inline-block;
                                 border-radius: 50px;
@@ -4854,7 +4856,7 @@ Author Area
                 h4 {
                     font-size: 22px;
                     margin-bottom: 0;
-                    font-weight: 600;
+                    font-weight: 500;
                 }
             }
             .content-right {
@@ -5161,7 +5163,7 @@ Blog Area
                 span {
                     font-size: 14px;
                     color: var(--titleColor);
-                    font-weight: 600;
+                    font-weight: 500;
                     transition: var(--transition);
                     line-height: 1;
                     padding-top: 5px;
@@ -5461,8 +5463,8 @@ Collections Area
     a {
         display: block;
         img {
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
         }
     }
     .content {
@@ -5528,7 +5530,7 @@ Collections Area End
         font-size: 22px;
         color: var(--whiteColor);
         margin-bottom: 20px;
-        font-weight: 600;
+        font-weight: 500;
         width: 100%;
         a {
             float: right;
@@ -5612,7 +5614,7 @@ Collections Area End
             transition: 0.7s;
             color: var(--lightblueColor);
             font-size: 14px;
-            font-weight: 600;
+            font-weight: 500;
             background-color: #F6F6F6;
             border-radius: 5px;
             a {
@@ -5638,7 +5640,7 @@ Collections Area End
         font-size: 22px;
         color: var(--whiteColor);
         margin-bottom: 20px;
-        font-weight: 600;
+        font-weight: 500;
     }
     ul {
         padding: 0;
@@ -6078,7 +6080,7 @@ Contact Area
     h3 {
         font-size: 26px;
         color: var(--whiteColor);
-        font-weight: 600;
+        font-weight: 500;
     }
     h4 {
         font-size: 23px;
@@ -6822,4 +6824,8 @@ Animation CSS
 .side_fix{
     position: fixed;
     height:100vh
+}
+
+.footer-link {
+    color: var(--lSwapGray);
 }
