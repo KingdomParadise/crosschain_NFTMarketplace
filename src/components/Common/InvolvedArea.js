@@ -14,7 +14,7 @@ const InvolvedArea = () => {
             <div className='col-lg-4 col-6'>
               <div className='involved-card'>
                 <div className='icon'>
-                  <img src={require('../../assets/imgs/forum.png')} alt='' />
+                  <img src={require('../../assets/imgs/forum.svg').default} alt='' />
                 </div>
                 <h3>
                   <b>Join Our Community</b>
@@ -42,7 +42,7 @@ const InvolvedArea = () => {
             <div className='col-lg-4 col-6'>
               <div className='involved-card'>
                 <div className='icon'>
-                <img src={require('../../assets/imgs/color_lens.png')} alt='' />
+                <img src={require('../../assets/imgs/color_lens.svg').default} alt='' />
                 </div>
                 <h3>
                   <b>Become A Creator</b>
@@ -58,7 +58,7 @@ const InvolvedArea = () => {
             <div className='col-lg-4 col-6'>
               <div className='involved-card'>
                 <div className='icon'>
-                <img src={require('../../assets/imgs/emoji_people.png')} alt='' />
+                <img src={require('../../assets/imgs/emoji_people.svg').default} alt='' />
                 </div>
                 <h3>
                   <b>Reach Out To Our Team</b>

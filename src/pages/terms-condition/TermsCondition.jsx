@@ -10,7 +10,7 @@ const ItemDetails = () => {
                 bg='inner-bg5'
             />
 
-            <div className='terms-conditions-area pt-100'>
+            <div className='terms-conditions-area'>
                 <div className='container col-lg-10'>
                     <div className='row pt-45'>
                         <div className='col-lg-12'>

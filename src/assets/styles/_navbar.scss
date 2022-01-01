@@ -333,13 +333,16 @@
       input {
         background: #15181E;
         border-radius: 8px;
-        padding: 13px 20px 11px 20px;
+        padding: 10px 16px;
         border: none;
         color: #fff;
         &::placeholder {
           color: #FFF;
           font-size: $input-placeholder-font-size;
         }
+      }
+      .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+        border-radius: 8px;
       }
     }
   }
@@ -382,6 +385,9 @@
 .input-group-append {
   .btn {
     font-size: 1.5rem;
+    img {
+      vertical-align: baseline;
+    }
   }
 }
 
