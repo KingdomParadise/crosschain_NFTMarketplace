@@ -5,7 +5,7 @@ import { resetIdCounter, Tab, TabList, TabPanel } from 'react-tabs';
 import Pagination from './Pagination';
 resetIdCounter();
 
-const FeaturedArea = ({ title, pagination }) => {
+const FeaturedArea = ({ title, pagination, className = "" }) => {
   //counter calculation
   const [days, setDays] = useState('');
   const [hours, setHours] = useState('');
@@ -50,7 +50,7 @@ const FeaturedArea = ({ title, pagination }) => {
 
   return (
     <>
-      <div className='featured-area px-5 pt-100 pb-70'>
+      <div className={`featured-area px-5 pt-100 pb-70 ${className}`}>
         <div className='container'>
           <div className='tab featured-tab-area'>
             <div className='row align-items-center'>

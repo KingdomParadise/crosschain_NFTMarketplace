@@ -28,7 +28,7 @@ const AuthorArea = () => {
               <div className='author-card'>
               <Link to='/author-profile'>
                 <a href={() => false}>
-                  <img src={require('../../assets/imgs/trending/trending-img1.png')} alt='Images' />
+                  <img src={require('../../assets/imgs/trending/trending-img1.svg').default} alt='Images' />
                 </a>
                 </Link>
                 <div className='content'>
@@ -77,7 +77,7 @@ const AuthorArea = () => {
               <div className='author-card'>
               <Link to='/author-profile'>
                 <a href={() => false}>
-                  <img src={require('../../assets/imgs/trending/trending-img2.png')} alt='Images' />
+                  <img src={require('../../assets/imgs/trending/trending-img2.svg').default} alt='Images' />
                 </a>
                 </Link>
                 <div className='content'>
@@ -126,7 +126,7 @@ const AuthorArea = () => {
               <div className='author-card'>
               <Link to='/author-profile'>
                 <a href={() => false}>
-                  <img src={require('../../assets/imgs/trending/trending-img3.png')} alt='Images' />
+                  <img src={require('../../assets/imgs/trending/trending-img3.svg').default} alt='Images' />
                 </a></Link>
                 <div className='content'>
                   <div className='author-user'>
@@ -174,7 +174,7 @@ const AuthorArea = () => {
               <div className='author-card'>
               <Link to='/author-profile'>
                 <a href={() => false}>
-                  <img src={require('../../assets/imgs/trending/trending-img4.png')} alt='Images' />
+                  <img src={require('../../assets/imgs/trending/trending-img4.svg').default} alt='Images' />
                 </a></Link>
                 <div className='content'>
                   <div className='author-user'>

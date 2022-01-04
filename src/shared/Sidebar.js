@@ -106,7 +106,7 @@ class Sidebar extends Component {
             </Collapse>
           </li>
         </ul>
-       <div className="p-3">
+       <div className="p-3 sidebar-bottom">
           <div className="d-flex justify-content-between mb-3">
               <div className="lion_icon"><img src={lion1_icon} alt=""/> $0.020</div>
               <div className="lion_icon"><img src={lion2_icon} alt=""/>  $0.723</div>

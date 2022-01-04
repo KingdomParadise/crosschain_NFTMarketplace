@@ -14,7 +14,7 @@ const Home = () => {
             <TrendingArea />
             <TopSeller />
             <AuctionArea />
-            <FeaturedArea title="Featured Assets"/>
+            <FeaturedArea title="Featured Assets" className="home-page"/>
             <CreateArea />
             <AuthorArea />
             <CollectionsArea />

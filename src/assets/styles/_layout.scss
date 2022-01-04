@@ -172,7 +172,8 @@
     .sidebar {
       width: $sidebar-width-icon;
       .sidebar-brand-wrapper {
-        width: $sidebar-width-icon;
+        //width: $sidebar-width-icon;
+        width: 62px;
         .brand-logo {
           display: none;
         }
@@ -319,6 +320,9 @@
         }
       }
       .sidebar-actions {
+        display: none;
+      }
+      .sidebar-bottom {
         display: none;
       }
     }
