@@ -4,6 +4,7 @@ import { Collapse } from 'react-bootstrap';
 import { Trans } from 'react-i18next';
 import lion1_icon from '../assets/images/lion_icon.png';
 import lion2_icon from '../assets/images/lion2_icon.png';
+import glob from '../assets/images/glob.png';
 
 class Sidebar extends Component {
 
@@ -119,7 +120,7 @@ class Sidebar extends Component {
               <div className="social_icon "><img src={require('../assets/imgs/WWW.svg').default} alt='' /> </div>
           </div>
        </div>
-       <div className='side-footer d-none'>hi</div>
+       <div className='side-footer d-none'><img src={glob} className="glob" /></div>
        </div>
       </nav>
     );
