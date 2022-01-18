@@ -119,6 +119,7 @@ class Sidebar extends Component {
               <div className="social_icon "><img src={require('../assets/imgs/WWW.svg').default} alt='' /> </div>
           </div>
        </div>
+       <div className='side-footer d-none'>hi</div>
        </div>
       </nav>
     );
