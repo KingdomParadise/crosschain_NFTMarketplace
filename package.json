@@ -5,11 +5,20 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@mdi/font": "^6.5.95",
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.4.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
     "bootstrap": "^5.1.3",
+    "chai": "^4.3.6",
     "compass-mixins": "^0.12.10",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.3",
+    "ipfs-http-client": "^50.1.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.4",
     "react-dom": "^17.0.2",
@@ -20,7 +29,8 @@
     "react-tabs": "^3.2.3",
     "sass": "^1.45.1",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.2"
+    "web-vitals": "^2.1.2",
+    "web3modal": "^1.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,5 +55,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingdomParadise/crosschain_NFTMarketplace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingdomParadise/crosschain_NFTMarketplace/issues"
+  },
+  "homepage": "https://github.com/KingdomParadise/crosschain_NFTMarketplace#readme"
 }
